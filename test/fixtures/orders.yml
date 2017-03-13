@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  vocher: MyString
+  customer: one
+  delivery: MyString
+  gate: MyString
+  remark: MyString
+  payment: MyString
+
+two:
+  vocher: MyString
+  customer: two
+  delivery: MyString
+  gate: MyString
+  remark: MyString
+  payment: MyString

@@ -1,0 +1,61 @@
++ Statelessness: Client state should not be stored on the server between requests. Said another way, each individual request should have no context of the requests that came before it.
++ Resource identification per request: Each request should uniquely identify a single resource. Said differently, each request that modifies the database should act on one and only one row of one and only one table. Requests that only fetch information should get zero or more rows from one table.
++ Representational state transfer: The resource endpoints should return representations of the resource as data, usually XML or JSON. The returned information should be sufficient for the client to uniquely identify and manipulate the database row(s) in question.
+
+- auto generate voucher number
+- forbid everything that's no concern with Android client
+- better routing system for android
+- REST API with a few version
+- remove all auto generated JSON thing
+
+- New Category
+- New Staff
+
+- Staff will process and print respective category
+
+MOBILE REST
+  POST login (phone, password)  => token
+  POST orders (token, delivery, gate(optional, customer may be fill themselve), remark, payment, status, department, {order_details}) => {status: true}
+  GET orders (token) => orders
+
+Brand field will be null
+Import Excel Type, Brand, Models (not real)
+Send excel format
+Order (name, edit permission to repective department staff)
+
+# app/controllers/test_controller.rb
+class TestController < ApplicationController
+  before_action :authenticate_user!
+
+  def members_only
+    render json: {
+      data: {
+        message: "Welcome #{current_user.name}",
+        user: current_user
+      }
+    }, status: 200
+  end
+end
+
+def index
+  @records = ....
+  respond_to do |format|
+    format.html # index.html.erb
+    format.xml  { render :xml => @records }
+    format.csv  { @records.to_csv }
+  end
+end
+
+format.csv do
+  csv_string = FasterCSV.generate do |csv|
+    # header row
+    csv << ["id", "Column1", "Column1"]
+    # data rows
+    @records.each do |r|
+      csv << [r.id, r.column1, r.column2]
+    end
+  # send it to the browser
+  send_data csv_string,
+            :type => 'text/csv; charset=iso-8859-1; header=present',
+            :disposition => "attachment; filename=records.csv"
+end

@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Staffs</h1>
+
+<table class="dt table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>Username</th>
+      <th>Password</th>
+      <th>Department</th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @staffs.each do |staff| %>
+      <tr>
+        <td><%= staff.username %></td>
+        <td><%= staff.password %></td>
+        <td><%= link_to staff.department.name, department_path(staff.department) %></td>
+        <td><%= link_to 'Show', staff %>
+        <%= link_to 'Edit', edit_staff_path(staff) %>
+        <%= link_to 'Destroy', staff, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Staff', new_staff_path %>

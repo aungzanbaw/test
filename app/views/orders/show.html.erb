@@ -1,0 +1,66 @@
+<p id="notice"><%= notice %></p>
+<table class="table table-bordered table-condensed">
+  <tbody>
+    <tr>
+      <td><strong>Customer:</strong></td>
+      <td><%= @order.customer.name %></td>
+    </tr>
+    <tr>
+      <td><strong>Delivery:</strong></td>
+      <td><%= @order.delivery %></td>
+    </tr>
+    <tr>
+      <td><strong>Gate:</strong></td>
+      <td><%= @order.gate %></td>
+    </tr>
+    <tr>
+      <td><strong>Remark:</strong></td>
+      <td><%= @order.remark %></td>
+    </tr>
+    <tr>
+      <td><strong>Payment:</strong></td>
+      <td><%= @order.payment %></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <td>Product</td>
+      <td>Qty</td>
+      <td>Remove</td>
+    </tr>
+  </thead>
+  <tbody>
+    <% match = true if @order.department == Staff.find(session[:staff]).department && @order.status == true %>
+    <% @details.each do |d| %>
+      <tr>
+        <td><%= d.name %></td>
+        <td>
+          <% if session[:staff] != 1 && match %>
+            <input type="text" name="" value="<%= d.qty %>">
+          <% else %>
+            <%= d.qty  %>
+          <% end %>
+        </td> 
+        <td>
+          <%= link_to "Destroy", detail_path(d,order: @order), method: :delete, data: { confirm: 'Are you sure?' } %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<% if match %>
+  <%= form_for(@order) do |f| %>
+    <div class="actions">
+      <%= f.hidden_field :status, value: false %>
+      <%= f.submit "Fulfill order", class: 'btn btn-primary',data: { confirm: 'Are you sure?' } %>
+    </div>
+  <% end %>
+  <br>
+<% end %>
+<%= link_to 'Print', "#", class: 'btn btn-warning', onclick: 'window.print()' %>
+<hr>
+<%= link_to 'Back', orders_path %>

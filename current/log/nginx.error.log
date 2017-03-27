@@ -1,0 +1,873 @@
+2017/03/13 16:37:16 [crit] 2444#0: *2 connect() to unix:/home/deploy/da/shared/sockets/puma.sock failed (2: No such file or directory) while connecting to upstream, client: 103.25.14.253, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/", host: "103.253.146.26"
+2017/03/13 16:37:16 [crit] 2444#0: *2 connect() to unix:/home/deploy/da/shared/sockets/puma.sock failed (2: No such file or directory) while connecting to upstream, client: 103.25.14.253, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/500.html", host: "103.253.146.26"
+2017/03/13 16:37:27 [info] 2444#0: *5 client closed connection while waiting for request, client: 103.25.14.253, server: 0.0.0.0:80
+2017/03/13 16:37:27 [info] 2444#0: *1 client closed connection while waiting for request, client: 103.25.14.253, server: 0.0.0.0:80
+2017/03/13 16:41:42 [crit] 2444#0: *6 connect() to unix:/home/deploy/da/shared/sockets/puma.sock failed (2: No such file or directory) while connecting to upstream, client: 103.25.14.253, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/", host: "103.253.146.26"
+2017/03/13 16:41:42 [crit] 2444#0: *6 connect() to unix:/home/deploy/da/shared/sockets/puma.sock failed (2: No such file or directory) while connecting to upstream, client: 103.25.14.253, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/500.html", host: "103.253.146.26"
+2017/03/13 16:42:26 [info] 2444#0: *10 client closed connection while waiting for request, client: 103.25.14.253, server: 0.0.0.0:80
+2017/03/13 16:42:26 [info] 2444#0: *9 client closed connection while waiting for request, client: 103.25.14.253, server: 0.0.0.0:80
+2017/03/13 16:48:08 [crit] 2444#0: *11 connect() to unix:/home/deploy/da/shared/sockets/puma.sock failed (2: No such file or directory) while connecting to upstream, client: 103.25.14.253, server: localhost, request: "GET /login HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/login", host: "103.253.146.26"
+2017/03/13 16:48:08 [crit] 2444#0: *11 connect() to unix:/home/deploy/da/shared/sockets/puma.sock failed (2: No such file or directory) while connecting to upstream, client: 103.25.14.253, server: localhost, request: "GET /login HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/500.html", host: "103.253.146.26"
+2017/03/13 16:49:03 [info] 2444#0: *12 client closed connection while waiting for request, client: 103.25.14.253, server: 0.0.0.0:80
+2017/03/13 16:49:03 [info] 2444#0: *15 client closed connection while waiting for request, client: 103.25.14.253, server: 0.0.0.0:80
+2017/03/13 16:55:10 [error] 2975#0: *1 connect() to unix:/home/deploy/da/shared/sockets/puma.sock failed (111: Connection refused) while connecting to upstream, client: 103.25.14.253, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/", host: "103.253.146.26"
+2017/03/13 16:55:32 [info] 2975#0: *2 client closed connection while waiting for request, client: 103.25.14.253, server: 0.0.0.0:80
+2017/03/13 16:55:32 [info] 2975#0: *4 client closed connection while waiting for request, client: 103.25.14.253, server: 0.0.0.0:80
+2017/03/13 16:55:49 [error] 2975#0: *5 connect() to unix:/home/deploy/da/shared/sockets/puma.sock failed (111: Connection refused) while connecting to upstream, client: 103.25.14.253, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/", host: "103.253.146.26"
+2017/03/13 16:55:57 [error] 2975#0: *5 connect() to unix:/home/deploy/da/shared/sockets/puma.sock failed (111: Connection refused) while connecting to upstream, client: 103.25.14.253, server: localhost, request: "GET /login HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/login", host: "103.253.146.26"
+2017/03/13 16:56:00 [info] 2975#0: *6 client closed connection while waiting for request, client: 103.25.14.253, server: 0.0.0.0:80
+2017/03/13 16:56:00 [info] 2975#0: *8 client closed connection while waiting for request, client: 103.25.14.253, server: 0.0.0.0:80
+2017/03/13 16:56:00 [error] 2975#0: *5 connect() to unix:/home/deploy/da/shared/sockets/puma.sock failed (111: Connection refused) while connecting to upstream, client: 103.25.14.253, server: localhost, request: "GET /login HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/login", host: "103.253.146.26"
+2017/03/13 16:56:51 [info] 2975#0: *11 client closed connection while waiting for request, client: 103.25.14.253, server: 0.0.0.0:80
+2017/03/13 16:56:51 [error] 2975#0: *13 connect() to unix:/home/deploy/da/shared/sockets/puma.sock failed (111: Connection refused) while connecting to upstream, client: 103.25.14.253, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/", host: "103.253.146.26"
+2017/03/13 16:57:27 [info] 2975#0: *12 client closed connection while waiting for request, client: 103.25.14.253, server: 0.0.0.0:80
+2017/03/13 16:57:58 [error] 2975#0: *16 connect() to unix:/home/deploy/da/shared/sockets/puma.sock failed (111: Connection refused) while connecting to upstream, client: 103.25.14.253, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/", host: "103.253.146.26"
+2017/03/13 16:58:58 [info] 2975#0: *15 client timed out (110: Connection timed out) while waiting for request, client: 103.25.14.253, server: 0.0.0.0:80
+2017/03/13 17:03:59 [info] 4547#0: *11 client closed connection while waiting for request, client: 103.25.14.253, server: 0.0.0.0:80
+2017/03/13 17:12:20 [info] 4547#0: *27 client closed connection while waiting for request, client: 103.25.14.253, server: 0.0.0.0:80
+2017/03/13 17:14:32 [info] 4547#0: *34 client timed out (110: Connection timed out) while waiting for request, client: 103.25.14.253, server: 0.0.0.0:80
+2017/03/13 17:14:32 [info] 4547#0: *35 client timed out (110: Connection timed out) while waiting for request, client: 103.25.14.253, server: 0.0.0.0:80
+2017/03/13 17:14:32 [info] 4547#0: *36 client timed out (110: Connection timed out) while waiting for request, client: 103.25.14.253, server: 0.0.0.0:80
+2017/03/13 17:14:32 [info] 4547#0: *37 client timed out (110: Connection timed out) while waiting for request, client: 103.25.14.253, server: 0.0.0.0:80
+2017/03/13 17:43:57 [info] 4547#0: *44 recv() failed (104: Connection reset by peer) while sending to client, client: 59.127.111.234, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/13 18:22:28 [info] 4547#0: *46 recv() failed (104: Connection reset by peer) while sending to client, client: 42.116.158.158, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/13 18:44:55 [info] 4547#0: *48 recv() failed (104: Connection reset by peer) while sending to client, client: 180.176.78.5, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/13 19:20:03 [info] 4547#0: *50 recv() failed (104: Connection reset by peer) while sending to client, client: 27.64.47.39, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/13 19:34:45 [info] 4547#0: *52 recv() failed (104: Connection reset by peer) while sending to client, client: 189.173.208.184, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/13 20:10:37 [info] 4547#0: *54 recv() failed (104: Connection reset by peer) while sending to client, client: 183.80.246.82, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/13 21:13:17 [info] 4547#0: *56 recv() failed (104: Connection reset by peer) while sending to client, client: 90.34.58.227, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/13 22:00:52 [info] 4547#0: *58 recv() failed (104: Connection reset by peer) while sending to client, client: 78.12.53.63, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/13 23:32:10 [info] 4547#0: *60 recv() failed (104: Connection reset by peer) while sending to client, client: 14.165.215.162, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/13 23:51:21 [info] 4547#0: *62 recv() failed (104: Connection reset by peer) while sending to client, client: 199.195.222.62, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/13 23:54:27 [info] 4547#0: *64 recv() failed (104: Connection reset by peer) while sending to client, client: 220.134.95.216, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/13 23:58:31 [info] 4547#0: *66 recv() failed (104: Connection reset by peer) while sending to client, client: 115.133.60.14, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/14 00:03:32 [info] 4547#0: *68 recv() failed (104: Connection reset by peer) while sending to client, client: 122.117.184.142, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/14 00:19:32 [info] 4547#0: *70 client closed connection while waiting for request, client: 60.173.14.68, server: 0.0.0.0:80
+2017/03/14 00:19:32 [info] 4547#0: *71 client 60.173.14.68 closed keepalive connection
+2017/03/14 00:19:33 [info] 4547#0: *73 client 60.173.14.68 closed keepalive connection
+2017/03/14 00:29:44 [info] 4547#0: *75 recv() failed (104: Connection reset by peer) while sending to client, client: 122.117.233.193, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/14 00:51:44 [info] 4547#0: *79 client 37.111.2.214 closed keepalive connection
+2017/03/14 00:51:44 [info] 4547#0: *77 client 37.111.2.214 closed keepalive connection
+2017/03/14 01:03:05 [info] 4547#0: *80 client closed connection while waiting for request, client: 58.148.99.8, server: 0.0.0.0:80
+2017/03/14 02:50:30 [info] 4547#0: *83 recv() failed (104: Connection reset by peer) while waiting for request, client: 121.169.227.14, server: 0.0.0.0:80
+2017/03/14 02:50:30 [info] 4547#0: *84 client 121.169.227.14 closed keepalive connection (104: Connection reset by peer)
+2017/03/14 04:41:30 [info] 4547#0: *86 client 91.196.50.33 closed keepalive connection
+2017/03/14 05:58:32 [info] 4547#0: *90 client 198.20.69.74 closed keepalive connection
+2017/03/14 05:58:33 [info] 4547#0: *88 client 198.20.69.74 closed keepalive connection
+2017/03/14 05:58:39 [info] 4547#0: *91 client 198.20.69.74 closed keepalive connection (104: Connection reset by peer)
+2017/03/14 06:15:27 [info] 4547#0: *93 recv() failed (104: Connection reset by peer) while sending to client, client: 86.176.14.38, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/14 06:25:04 [info] 4547#0: *95 recv() failed (104: Connection reset by peer) while sending to client, client: 185.25.249.77, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/14 06:34:40 [info] 4547#0: *97 recv() failed (104: Connection reset by peer) while sending to client, client: 187.188.43.92, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/14 06:45:10 [info] 4547#0: *99 recv() failed (104: Connection reset by peer) while sending to client, client: 200.124.225.234, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/14 06:52:59 [info] 4547#0: *111 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/14 06:53:07 [info] 4547#0: *112 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/14 06:53:32 [info] 4547#0: *113 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/14 06:54:20 [info] 4547#0: *118 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/14 06:54:20 [info] 4547#0: *117 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/14 06:54:51 [info] 4547#0: *124 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/14 06:54:51 [info] 4547#0: *123 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/14 06:55:07 [info] 4547#0: *128 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/14 06:55:22 [info] 4547#0: *131 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/14 06:56:47 [info] 4547#0: *142 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/14 06:56:47 [info] 4547#0: *141 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/14 06:56:47 [info] 4547#0: *140 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/14 07:16:19 [info] 4547#0: *150 recv() failed (104: Connection reset by peer) while sending to client, client: 81.218.212.50, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/14 08:49:59 [info] 4547#0: *152 recv() failed (104: Connection reset by peer) while sending to client, client: 186.75.174.18, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/14 10:01:54 [info] 4547#0: *156 client sent invalid method while reading client request line, client: 51.6.146.196, server: localhost, request: " P[y9D "
+2017/03/14 10:02:18 [info] 4547#0: *157 client sent invalid method while reading client request line, client: 51.6.146.196, server: localhost, request: " "
+2017/03/14 10:11:06 [info] 4547#0: *158 recv() failed (104: Connection reset by peer) while sending to client, client: 187.190.41.116, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/14 10:29:36 [info] 4547#0: *160 recv() failed (104: Connection reset by peer) while sending to client, client: 14.188.92.33, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/14 12:21:39 [info] 4547#0: *178 recv() failed (104: Connection reset by peer) while sending to client, client: 121.122.86.186, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/14 13:13:08 [info] 4547#0: *180 recv() failed (104: Connection reset by peer) while sending to client, client: 80.76.109.5, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/14 13:29:20 [info] 4547#0: *182 recv() failed (104: Connection reset by peer) while sending to client, client: 84.140.152.63, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/14 15:34:14 [info] 4547#0: *186 client 106.2.124.185 closed keepalive connection
+2017/03/14 15:34:14 [info] 4547#0: *188 client sent invalid method while reading client request line, client: 106.2.124.185, server: localhost, request: "       "
+2017/03/14 15:34:15 [info] 4547#0: *188 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.2.124.185, server: localhost, request: "       "
+2017/03/14 15:34:16 [info] 4547#0: *189 client sent invalid method while reading client request line, client: 27.211.178.120, server: localhost, request: " "
+2017/03/14 15:34:16 [info] 4547#0: *190 client sent invalid method while reading client request line, client: 106.2.124.185, server: localhost, request: " "
+2017/03/14 15:34:16 [info] 4547#0: *190 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.2.124.185, server: localhost, request: " "
+2017/03/14 15:34:16 [info] 4547#0: *189 recv() failed (104: Connection reset by peer) while reading client request line, client: 27.211.178.120, server: localhost, request: " "
+2017/03/14 17:12:56 [info] 4547#0: *191 recv() failed (104: Connection reset by peer) while sending to client, client: 91.46.239.111, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/14 18:15:16 [info] 4547#0: *193 client 162.254.201.233 closed keepalive connection
+2017/03/14 18:57:19 [info] 4547#0: *195 recv() failed (104: Connection reset by peer) while sending to client, client: 95.9.255.165, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/14 22:07:05 [info] 4547#0: *203 recv() failed (104: Connection reset by peer) while waiting for request, client: 195.154.182.205, server: 0.0.0.0:80
+2017/03/14 22:07:12 [info] 4547#0: *204 recv() failed (104: Connection reset by peer) while sending response to client, client: 195.154.182.205, server: localhost, request: "HEAD /robots.txt HTTP/1.0"
+2017/03/14 22:31:50 [info] 4547#0: *205 client 91.196.50.33 closed keepalive connection
+2017/03/14 23:07:36 [info] 4547#0: *219 recv() failed (104: Connection reset by peer) while sending to client, client: 197.225.21.254, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 00:19:40 [info] 4547#0: *221 recv() failed (104: Connection reset by peer) while sending to client, client: 189.165.241.238, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 00:35:31 [info] 4547#0: *223 recv() failed (104: Connection reset by peer) while sending to client, client: 122.117.184.142, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 01:02:28 [info] 4547#0: *226 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.91, server: 0.0.0.0:80
+2017/03/15 01:15:34 [info] 4547#0: *228 recv() failed (104: Connection reset by peer) while sending to client, client: 189.142.58.235, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 01:33:18 [info] 4547#0: *230 recv() failed (104: Connection reset by peer) while sending to client, client: 76.64.160.49, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 02:51:00 [info] 4547#0: *232 recv() failed (104: Connection reset by peer) while sending to client, client: 36.78.129.232, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 02:53:16 [info] 4547#0: *235 client closed connection while waiting for request, client: 103.42.216.91, server: 0.0.0.0:80
+2017/03/15 02:53:16 [info] 4547#0: *236 client closed connection while waiting for request, client: 103.42.216.91, server: 0.0.0.0:80
+2017/03/15 02:53:16 [info] 4547#0: *237 client closed connection while waiting for request, client: 103.42.216.91, server: 0.0.0.0:80
+2017/03/15 02:53:16 [info] 4547#0: *238 client closed connection while waiting for request, client: 103.42.216.91, server: 0.0.0.0:80
+2017/03/15 02:54:14 [info] 4547#0: *244 client closed connection while waiting for request, client: 103.42.216.91, server: 0.0.0.0:80
+2017/03/15 02:57:26 [info] 4547#0: *249 recv() failed (104: Connection reset by peer) while sending to client, client: 175.137.229.192, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 06:26:45 [info] 4547#0: *255 recv() failed (104: Connection reset by peer) while sending to client, client: 197.48.247.35, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 06:29:26 [info] 4547#0: *257 recv() failed (104: Connection reset by peer) while sending to client, client: 98.201.81.212, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 06:32:10 [info] 4547#0: *265 client closed connection while waiting for request, client: 103.42.216.91, server: 0.0.0.0:80
+2017/03/15 06:32:10 [info] 4547#0: *267 client closed connection while waiting for request, client: 103.42.216.91, server: 0.0.0.0:80
+2017/03/15 06:32:40 [info] 4547#0: *270 client closed connection while waiting for request, client: 103.42.216.91, server: 0.0.0.0:80
+2017/03/15 06:32:53 [info] 4547#0: *272 client closed connection while waiting for request, client: 103.42.216.91, server: 0.0.0.0:80
+2017/03/15 06:33:05 [info] 4547#0: *274 client closed connection while waiting for request, client: 103.42.216.91, server: 0.0.0.0:80
+2017/03/15 06:34:42 [info] 4547#0: *281 client closed connection while waiting for request, client: 103.42.216.91, server: 0.0.0.0:80
+2017/03/15 06:34:54 [info] 4547#0: *285 client closed connection while waiting for request, client: 103.42.216.91, server: 0.0.0.0:80
+2017/03/15 06:35:09 [info] 4547#0: *288 client closed connection while waiting for request, client: 103.42.216.91, server: 0.0.0.0:80
+2017/03/15 06:35:57 [info] 4547#0: *292 client closed connection while waiting for request, client: 103.42.216.91, server: 0.0.0.0:80
+2017/03/15 06:36:22 [info] 4547#0: *293 client closed connection while waiting for request, client: 103.42.216.91, server: 0.0.0.0:80
+2017/03/15 06:42:21 [info] 4547#0: *296 client closed connection while waiting for request, client: 103.42.216.91, server: 0.0.0.0:80
+2017/03/15 06:43:48 [info] 4547#0: *301 client closed connection while waiting for request, client: 103.42.216.91, server: 0.0.0.0:80
+2017/03/15 08:13:28 [info] 4547#0: *305 client 91.196.50.33 closed keepalive connection
+2017/03/15 08:42:12 [info] 4547#0: *307 client closed connection while waiting for request, client: 113.76.102.90, server: 0.0.0.0:80
+2017/03/15 09:12:58 [info] 4547#0: *310 recv() failed (104: Connection reset by peer) while sending to client, client: 14.188.139.59, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 10:06:18 [info] 4547#0: *312 recv() failed (104: Connection reset by peer) while sending to client, client: 181.67.136.11, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 10:56:47 [info] 4547#0: *314 recv() failed (104: Connection reset by peer) while sending to client, client: 14.191.35.52, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 11:15:36 [info] 4547#0: *316 recv() failed (104: Connection reset by peer) while sending to client, client: 222.252.25.28, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 12:14:55 [info] 4547#0: *318 recv() failed (104: Connection reset by peer) while sending to client, client: 118.101.146.12, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 12:27:05 [info] 4547#0: *320 recv() failed (104: Connection reset by peer) while sending to client, client: 189.163.10.36, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 12:56:12 [info] 4547#0: *322 recv() failed (104: Connection reset by peer) while sending to client, client: 202.62.59.167, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 13:57:39 [info] 4547#0: *324 client 188.36.250.14 closed keepalive connection
+2017/03/15 14:15:00 [info] 4547#0: *326 recv() failed (104: Connection reset by peer) while sending to client, client: 2.229.6.219, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 14:27:42 [info] 4547#0: *328 recv() failed (104: Connection reset by peer) while sending to client, client: 108.54.58.80, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 15:34:19 [info] 4547#0: *330 client 59.111.32.13 closed keepalive connection
+2017/03/15 15:34:23 [info] 4547#0: *332 client sent invalid method while reading client request line, client: 59.111.32.13, server: localhost, request: "       "
+2017/03/15 15:34:23 [info] 4547#0: *332 recv() failed (104: Connection reset by peer) while reading client request line, client: 59.111.32.13, server: localhost, request: "       "
+2017/03/15 15:34:24 [info] 4547#0: *333 client sent invalid method while reading client request line, client: 125.120.85.237, server: localhost, request: " "
+2017/03/15 15:34:24 [info] 4547#0: *333 recv() failed (104: Connection reset by peer) while reading client request line, client: 125.120.85.237, server: localhost, request: " "
+2017/03/15 15:34:24 [info] 4547#0: *334 client sent invalid method while reading client request line, client: 59.111.32.13, server: localhost, request: " "
+2017/03/15 15:34:25 [info] 4547#0: *334 recv() failed (104: Connection reset by peer) while reading client request line, client: 59.111.32.13, server: localhost, request: " "
+2017/03/15 16:00:10 [info] 4547#0: *335 recv() failed (104: Connection reset by peer) while sending to client, client: 27.75.28.95, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 17:40:00 [info] 4547#0: *337 recv() failed (104: Connection reset by peer) while sending to client, client: 177.17.33.234, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 18:25:13 [info] 4547#0: *339 recv() failed (104: Connection reset by peer) while sending to client, client: 222.252.72.54, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 18:33:11 [info] 4547#0: *341 client 180.97.106.162 closed keepalive connection
+2017/03/15 18:51:46 [info] 4547#0: *343 client closed connection while waiting for request, client: 109.120.246.125, server: 0.0.0.0:80
+2017/03/15 19:32:43 [info] 4547#0: *344 client 185.25.148.240 closed keepalive connection
+2017/03/15 19:33:15 [info] 4547#0: *346 recv() failed (104: Connection reset by peer) while sending to client, client: 61.244.241.222, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 19:35:19 [info] 4547#0: *348 recv() failed (104: Connection reset by peer) while sending to client, client: 1.4.157.72, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 20:10:42 [info] 4547#0: *350 recv() failed (104: Connection reset by peer) while sending to client, client: 190.218.215.110, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 20:12:28 [info] 4547#0: *352 recv() failed (104: Connection reset by peer) while sending to client, client: 190.50.240.189, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 20:19:17 [info] 4547#0: *354 recv() failed (104: Connection reset by peer) while sending to client, client: 36.37.219.84, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 21:14:29 [info] 4547#0: *356 recv() failed (104: Connection reset by peer) while sending to client, client: 82.48.86.92, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 21:36:38 [info] 4547#0: *358 client sent invalid method while reading client request line, client: 163.172.99.46, server: localhost, request: " ñ  í"
+2017/03/15 21:36:38 [info] 4547#0: *358 recv() failed (104: Connection reset by peer) while reading client request line, client: 163.172.99.46, server: localhost, request: " ñ  í"
+2017/03/15 22:12:17 [info] 4547#0: *359 recv() failed (104: Connection reset by peer) while sending to client, client: 14.187.253.138, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 23:06:36 [info] 4547#0: *361 recv() failed (104: Connection reset by peer) while sending to client, client: 189.234.60.139, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 23:23:05 [info] 4547#0: *363 recv() failed (104: Connection reset by peer) while sending to client, client: 31.25.126.155, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 23:37:24 [info] 4547#0: *365 recv() failed (104: Connection reset by peer) while sending to client, client: 89.28.73.183, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/15 23:41:09 [info] 4547#0: *367 recv() failed (104: Connection reset by peer) while sending to client, client: 123.19.28.205, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/16 00:32:12 [info] 4547#0: *371 recv() failed (104: Connection reset by peer) while sending to client, client: 83.13.158.50, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/16 01:55:51 [info] 4547#0: *373 recv() failed (104: Connection reset by peer) while sending to client, client: 175.140.229.99, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/16 02:19:43 [info] 4547#0: *375 recv() failed (104: Connection reset by peer) while sending to client, client: 91.51.153.251, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/16 03:18:23 [info] 4547#0: *377 client closed connection while waiting for request, client: 109.120.246.125, server: 0.0.0.0:80
+2017/03/16 03:40:34 [info] 4547#0: *378 recv() failed (104: Connection reset by peer) while sending to client, client: 223.27.81.50, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/16 03:47:32 [info] 4547#0: *380 client sent invalid method while reading client request line, client: 180.97.106.161, server: localhost, request: " P¥£qR "
+2017/03/16 03:49:19 [info] 4547#0: *381 recv() failed (104: Connection reset by peer) while sending to client, client: 203.109.205.82, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/16 04:49:16 [info] 4547#0: *383 recv() failed (104: Connection reset by peer) while sending to client, client: 189.171.50.14, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/16 05:36:50 [info] 4547#0: *385 recv() failed (104: Connection reset by peer) while sending to client, client: 116.87.181.190, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/16 06:21:09 [info] 4547#0: *387 client sent invalid method while reading client request line, client: 180.97.106.162, server: localhost, request: " "
+2017/03/16 07:32:39 [info] 4547#0: *388 recv() failed (104: Connection reset by peer) while sending to client, client: 118.70.104.116, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/16 08:01:33 [info] 4547#0: *390 client prematurely closed connection while reading client pipelined request line, client: 185.117.72.44, server: localhost
+2017/03/16 08:14:42 [info] 4547#0: *392 recv() failed (104: Connection reset by peer) while sending to client, client: 162.243.188.75, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/16 09:19:52 [info] 4547#0: *394 client 185.25.148.240 closed keepalive connection
+2017/03/16 09:29:43 [info] 4547#0: *396 recv() failed (104: Connection reset by peer) while sending to client, client: 93.201.250.72, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/16 09:43:53 [info] 4547#0: *398 client 59.111.29.6 closed keepalive connection
+2017/03/16 09:43:54 [info] 4547#0: *400 client sent invalid method while reading client request line, client: 59.111.29.6, server: localhost, request: "       "
+2017/03/16 09:43:55 [info] 4547#0: *400 recv() failed (104: Connection reset by peer) while reading client request line, client: 59.111.29.6, server: localhost, request: "       "
+2017/03/16 09:43:55 [info] 4547#0: *401 client sent invalid method while reading client request line, client: 218.10.51.212, server: localhost, request: " "
+2017/03/16 09:43:55 [info] 4547#0: *401 recv() failed (104: Connection reset by peer) while reading client request line, client: 218.10.51.212, server: localhost, request: " "
+2017/03/16 09:43:56 [info] 4547#0: *402 client sent invalid method while reading client request line, client: 59.111.29.6, server: localhost, request: " "
+2017/03/16 09:43:56 [info] 4547#0: *402 recv() failed (104: Connection reset by peer) while reading client request line, client: 59.111.29.6, server: localhost, request: " "
+2017/03/16 10:27:52 [info] 4547#0: *405 client 47.19.50.10 closed keepalive connection
+2017/03/16 11:41:14 [info] 4547#0: *491 client closed connection while waiting for request, client: 123.56.188.193, server: 0.0.0.0:80
+2017/03/16 13:40:14 [info] 4547#0: *492 recv() failed (104: Connection reset by peer) while sending to client, client: 202.84.44.56, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/16 15:34:17 [info] 4547#0: *494 client 106.2.124.185 closed keepalive connection
+2017/03/16 15:34:18 [info] 4547#0: *496 client sent invalid method while reading client request line, client: 106.2.124.185, server: localhost, request: "       "
+2017/03/16 15:34:20 [info] 4547#0: *496 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.2.124.185, server: localhost, request: "       "
+2017/03/16 15:34:20 [info] 4547#0: *497 client sent invalid method while reading client request line, client: 106.91.211.100, server: localhost, request: " "
+2017/03/16 15:34:21 [info] 4547#0: *497 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.91.211.100, server: localhost, request: " "
+2017/03/16 15:34:21 [info] 4547#0: *498 client sent invalid method while reading client request line, client: 106.2.124.185, server: localhost, request: " "
+2017/03/16 15:34:21 [info] 4547#0: *498 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.2.124.185, server: localhost, request: " "
+2017/03/16 16:20:12 [info] 4547#0: *499 recv() failed (104: Connection reset by peer) while sending to client, client: 175.149.165.110, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/16 16:40:11 [info] 4547#0: *501 recv() failed (104: Connection reset by peer) while sending to client, client: 122.11.132.130, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/16 18:02:09 [info] 4547#0: *503 client 193.63.58.83 closed keepalive connection
+2017/03/16 18:30:20 [info] 4547#0: *505 client closed connection while waiting for request, client: 14.116.19.120, server: 0.0.0.0:80
+2017/03/16 19:19:43 [info] 4547#0: *508 recv() failed (104: Connection reset by peer) while sending to client, client: 202.229.208.210, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/16 20:40:33 [info] 4547#0: *510 recv() failed (104: Connection reset by peer) while sending to client, client: 82.242.144.4, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/16 21:54:16 [info] 4547#0: *512 client 185.25.148.240 closed keepalive connection
+2017/03/16 22:19:05 [info] 4547#0: *514 client closed connection while waiting for request, client: 113.76.103.186, server: 0.0.0.0:80
+2017/03/16 23:18:38 [info] 4547#0: *517 recv() failed (104: Connection reset by peer) while sending to client, client: 36.73.47.227, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/16 23:21:16 [info] 4547#0: *519 client 163.172.52.197 closed keepalive connection
+2017/03/16 23:34:42 [info] 4547#0: *521 recv() failed (104: Connection reset by peer) while sending to client, client: 114.35.214.248, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/16 23:50:13 [info] 4547#0: *523 recv() failed (104: Connection reset by peer) while sending to client, client: 180.180.13.176, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/17 00:32:23 [info] 4547#0: *527 client 94.228.207.78 closed keepalive connection
+2017/03/17 01:33:55 [info] 4547#0: *529 client closed connection while waiting for request, client: 118.200.221.137, server: 0.0.0.0:80
+2017/03/17 02:14:18 [info] 4547#0: *530 recv() failed (104: Connection reset by peer) while sending to client, client: 175.143.123.181, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/17 03:03:34 [info] 4547#0: *532 client closed connection while waiting for request, client: 113.76.102.88, server: 0.0.0.0:80
+2017/03/17 03:49:02 [info] 4547#0: *535 recv() failed (104: Connection reset by peer) while sending to client, client: 180.76.15.148, server: localhost, request: "GET /tags/Preschool?page=3 HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/tags/Preschool?page=3", host: "pheweducation.com"
+2017/03/17 05:09:07 [info] 4547#0: *544 client closed connection while waiting for request, client: 103.215.194.2, server: 0.0.0.0:80
+2017/03/17 05:21:14 [info] 4547#0: *549 client timed out (110: Connection timed out) while waiting for request, client: 103.215.194.2, server: 0.0.0.0:80
+2017/03/17 06:18:40 [info] 4547#0: *551 client sent invalid method while reading client request line, client: 89.248.172.90, server: localhost, request: " "
+2017/03/17 06:18:43 [info] 4547#0: *552 client 89.248.172.90 closed keepalive connection
+2017/03/17 06:18:43 [info] 4547#0: *554 client sent invalid method while reading client request line, client: 89.248.172.90, server: localhost, request: " P¿cˆ60 "
+2017/03/17 06:18:45 [info] 4547#0: *555 client sent invalid method while reading client request line, client: 89.248.172.90, server: localhost, request: " P¿cˆ60 "
+2017/03/17 06:18:45 [info] 4547#0: *556 client sent invalid method while reading client request line, client: 89.248.172.90, server: localhost, request: " "
+2017/03/17 07:12:10 [info] 4547#0: *559 recv() failed (104: Connection reset by peer) while sending to client, client: 116.110.178.42, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/17 07:13:40 [info] 4547#0: *562 client sent invalid request while reading client request line, client: 45.76.7.181, server: localhost, request: "CONNECT 45.33.54.195:80 HTTP/1.0"
+2017/03/17 07:13:41 [info] 4547#0: *563 client sent invalid method while reading client request line, client: 45.76.7.181, server: localhost, request: " P-!6√  "
+2017/03/17 07:13:41 [info] 4547#0: *564 client sent invalid method while reading client request line, client: 45.76.7.181, server: localhost, request: " "
+2017/03/17 07:13:42 [info] 4547#0: *567 client sent invalid request while reading client request line, client: 45.76.7.181, server: localhost, request: "CONNECT 213.180.204.62:443 HTTP/1.0"
+2017/03/17 07:13:43 [info] 4547#0: *568 client sent invalid method while reading client request line, client: 45.76.7.181, server: localhost, request: "ª’¥Ã>  "
+2017/03/17 07:13:44 [info] 4547#0: *569 client 45.76.7.181 closed keepalive connection
+2017/03/17 07:13:44 [info] 4547#0: *571 client sent invalid request while reading client request line, client: 45.76.7.181, server: localhost, request: "CONNECT 63.250.200.63:80 HTTP/1.0"
+2017/03/17 07:13:45 [info] 4547#0: *572 client sent invalid method while reading client request line, client: 45.76.7.181, server: localhost, request: " P?˙»?  "
+2017/03/17 07:13:46 [info] 4547#0: *573 client 45.76.7.181 closed keepalive connection
+2017/03/17 07:13:46 [info] 4547#0: *575 client sent invalid request while reading client request line, client: 45.76.7.181, server: localhost, request: "CONNECT 13.107.21.200:80 HTTP/1.0"
+2017/03/17 07:13:47 [info] 4547#0: *576 client sent invalid method while reading client request line, client: 45.76.7.181, server: localhost, request: " P"
+2017/03/17 07:13:47 [info] 4547#0: *561 client closed connection while waiting for request, client: 45.76.7.181, server: 0.0.0.0:80
+2017/03/17 08:13:14 [info] 4547#0: *579 recv() failed (104: Connection reset by peer) while sending to client, client: 79.1.46.77, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/17 09:11:26 [info] 4547#0: *583 recv() failed (104: Connection reset by peer) while sending to client, client: 41.38.127.242, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/17 09:42:29 [info] 4547#0: *585 client closed connection while waiting for request, client: 14.116.4.59, server: 0.0.0.0:80
+2017/03/17 10:52:13 [info] 4547#0: *590 client closed connection while waiting for request, client: 202.58.104.247, server: 0.0.0.0:80
+2017/03/17 11:10:07 [info] 4547#0: *591 client 91.196.50.33 closed keepalive connection
+2017/03/17 11:24:15 [info] 4547#0: *595 client closed connection while waiting for request, client: 103.215.193.1, server: 0.0.0.0:80
+2017/03/17 11:24:28 [info] 4547#0: *599 client closed connection while waiting for request, client: 103.215.193.1, server: 0.0.0.0:80
+2017/03/17 11:25:29 [info] 4547#0: *602 client timed out (110: Connection timed out) while waiting for request, client: 103.215.193.1, server: 0.0.0.0:80
+2017/03/17 11:27:35 [info] 4547#0: *605 client closed connection while waiting for request, client: 103.215.193.1, server: 0.0.0.0:80
+2017/03/17 11:28:00 [info] 4547#0: *609 client closed connection while waiting for request, client: 103.215.193.1, server: 0.0.0.0:80
+2017/03/17 11:28:15 [info] 4547#0: *612 client closed connection while waiting for request, client: 103.215.193.1, server: 0.0.0.0:80
+2017/03/17 11:28:46 [info] 4547#0: *615 client closed connection while waiting for request, client: 103.215.193.1, server: 0.0.0.0:80
+2017/03/17 11:31:05 [info] 4547#0: *619 client closed connection while waiting for request, client: 103.215.193.1, server: 0.0.0.0:80
+2017/03/17 11:31:05 [info] 4547#0: *617 client 103.215.193.1 closed keepalive connection
+2017/03/17 12:52:24 [info] 4547#0: *620 recv() failed (104: Connection reset by peer) while sending to client, client: 189.137.20.115, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/17 15:45:28 [info] 4547#0: *622 client 59.111.32.13 closed keepalive connection
+2017/03/17 15:45:28 [info] 4547#0: *624 client sent invalid method while reading client request line, client: 59.111.32.13, server: localhost, request: "       "
+2017/03/17 15:45:32 [info] 4547#0: *625 client sent invalid method while reading client request line, client: 59.111.32.13, server: localhost, request: " "
+2017/03/17 15:45:32 [info] 4547#0: *625 recv() failed (104: Connection reset by peer) while reading client request line, client: 59.111.32.13, server: localhost, request: " "
+2017/03/17 16:02:29 [info] 4547#0: *626 client 45.112.176.83 closed keepalive connection
+2017/03/17 16:52:14 [info] 4547#0: *630 recv() failed (104: Connection reset by peer) while sending to client, client: 36.79.51.81, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/17 18:30:28 [info] 4547#0: *632 recv() failed (104: Connection reset by peer) while sending to client, client: 94.66.24.196, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/17 20:50:19 [info] 4547#0: *634 recv() failed (104: Connection reset by peer) while sending to client, client: 88.158.8.58, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/17 23:52:34 [info] 4547#0: *638 client 91.196.50.33 closed keepalive connection
+2017/03/17 23:59:40 [info] 4547#0: *640 recv() failed (104: Connection reset by peer) while sending to client, client: 190.254.121.102, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/18 01:20:13 [info] 4547#0: *642 recv() failed (104: Connection reset by peer) while sending to client, client: 189.187.122.161, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/18 01:20:25 [info] 4547#0: *644 recv() failed (104: Connection reset by peer) while sending to client, client: 187.195.39.6, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/18 02:34:30 [info] 4547#0: *646 client closed connection while waiting for request, client: 14.116.19.46, server: 0.0.0.0:80
+2017/03/18 03:07:22 [info] 4547#0: *649 recv() failed (104: Connection reset by peer) while sending to client, client: 189.233.234.233, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/18 07:11:50 [info] 4547#0: *651 recv() failed (104: Connection reset by peer) while sending to client, client: 95.225.229.210, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/18 07:52:02 [info] 4547#0: *653 client timed out (110: Connection timed out) while waiting for request, client: 82.67.160.40, server: 0.0.0.0:80
+2017/03/18 12:40:06 [info] 4547#0: *657 client 91.196.50.33 closed keepalive connection
+2017/03/18 15:46:48 [info] 4547#0: *659 client 59.111.29.6 closed keepalive connection
+2017/03/18 15:46:51 [info] 4547#0: *661 client sent invalid method while reading client request line, client: 59.111.29.6, server: localhost, request: "       "
+2017/03/18 15:46:52 [info] 4547#0: *662 client sent invalid method while reading client request line, client: 106.91.210.145, server: localhost, request: " "
+2017/03/18 15:46:52 [info] 4547#0: *662 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.91.210.145, server: localhost, request: " "
+2017/03/18 16:15:43 [info] 4547#0: *663 client 185.40.4.169 closed keepalive connection
+2017/03/18 16:15:45 [info] 4547#0: *666 client sent invalid method while reading client request line, client: 185.40.4.169, server: localhost, request: " ñ  íÇ¢îæà”°§E©ù'Bﬁ•¸≈ŸÄÍÙÈÄW≠¥k™∑Ö  6¿,¿"
+2017/03/18 16:15:45 [info] 4547#0: *665 client sent invalid method while reading client request line, client: 185.40.4.169, server: localhost, request: " ñ  íÒ˘N<≤pÊêJπÎ ˚b˜I§¨2’õÖQ "bGl  6¿,¿"
+2017/03/18 16:15:45 [info] 4547#0: *666 recv() failed (104: Connection reset by peer) while reading client request line, client: 185.40.4.169, server: localhost, request: " ñ  íÇ¢îæà”°§E©ù'Bﬁ•¸≈ŸÄÍÙÈÄW≠¥k™∑Ö  6¿,¿"
+2017/03/18 16:15:46 [info] 4547#0: *665 recv() failed (104: Connection reset by peer) while reading client request line, client: 185.40.4.169, server: localhost, request: " ñ  íÒ˘N<≤pÊêJπÎ ˚b˜I§¨2’õÖQ "bGl  6¿,¿"
+2017/03/18 17:28:51 [info] 4547#0: *670 client closed connection while waiting for request, client: 124.121.38.145, server: 0.0.0.0:80
+2017/03/18 17:28:54 [info] 4547#0: *667 client closed connection while waiting for request, client: 124.121.38.145, server: 0.0.0.0:80
+2017/03/18 17:46:38 [info] 4547#0: *671 client closed connection while waiting for request, client: 47.203.88.36, server: 0.0.0.0:80
+2017/03/18 17:47:22 [info] 4547#0: *672 client 47.203.88.36 closed keepalive connection
+2017/03/18 17:47:23 [info] 4547#0: *674 client sent invalid method while reading client request line, client: 47.203.88.36, server: localhost, request: " P¿cˆ60 "
+2017/03/18 17:47:23 [info] 4547#0: *675 client sent invalid method while reading client request line, client: 47.203.88.36, server: localhost, request: " P¿cˆ60 "
+2017/03/18 17:47:24 [info] 4547#0: *676 client sent invalid method while reading client request line, client: 47.203.88.36, server: localhost, request: " "
+2017/03/18 19:17:15 [info] 4547#0: *677 recv() failed (104: Connection reset by peer) while sending to client, client: 87.7.194.124, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/18 22:15:11 [info] 4547#0: *679 recv() failed (104: Connection reset by peer) while sending to client, client: 189.225.152.75, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/18 22:59:56 [info] 4547#0: *681 recv() failed (104: Connection reset by peer) while sending to client, client: 79.127.211.94, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/19 00:02:17 [info] 4547#0: *683 client 185.25.148.240 closed keepalive connection
+2017/03/19 00:11:32 [info] 4547#0: *685 recv() failed (104: Connection reset by peer) while sending to client, client: 112.209.21.28, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/19 00:11:34 [info] 4547#0: *687 recv() failed (104: Connection reset by peer) while sending to client, client: 112.209.21.28, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/19 00:11:35 [info] 4547#0: *689 recv() failed (104: Connection reset by peer) while sending to client, client: 112.209.21.28, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/19 00:11:40 [info] 4547#0: *691 recv() failed (104: Connection reset by peer) while sending to client, client: 112.209.21.28, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/19 00:11:54 [info] 4547#0: *693 recv() failed (104: Connection reset by peer) while sending to client, client: 112.209.21.28, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/19 00:12:03 [info] 4547#0: *695 recv() failed (104: Connection reset by peer) while sending to client, client: 112.209.21.28, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/19 00:43:48 [info] 4547#0: *697 client 185.181.102.18 closed keepalive connection
+2017/03/19 00:43:50 [info] 4547#0: *699 client 185.181.102.18 closed keepalive connection
+2017/03/19 00:43:50 [info] 4547#0: *700 client 185.181.102.18 closed keepalive connection (104: Connection reset by peer)
+2017/03/19 04:45:45 [info] 4547#0: *704 recv() failed (104: Connection reset by peer) while sending to client, client: 125.26.88.36, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/19 04:46:49 [info] 4547#0: *706 client closed connection while waiting for request, client: 118.200.163.26, server: 0.0.0.0:80
+2017/03/19 05:24:15 [info] 4547#0: *707 client closed connection while waiting for request, client: 220.255.54.24, server: 0.0.0.0:80
+2017/03/19 05:24:18 [info] 4547#0: *710 client closed connection while waiting for request, client: 220.255.54.24, server: 0.0.0.0:80
+2017/03/19 08:34:04 [info] 4547#0: *713 client closed connection while waiting for request, client: 14.116.17.139, server: 0.0.0.0:80
+2017/03/19 10:22:52 [info] 4547#0: *716 recv() failed (104: Connection reset by peer) while sending to client, client: 24.234.220.82, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/19 13:49:24 [info] 4547#0: *723 client sent HTTP/1.1 request without "Host" header while reading client request headers, client: 141.212.122.32, server: localhost, request: "GET /x HTTP/1.1"
+2017/03/19 14:07:49 [info] 4547#0: *724 client 91.196.50.33 closed keepalive connection
+2017/03/19 14:22:19 [info] 4547#0: *726 recv() failed (104: Connection reset by peer) while sending to client, client: 42.113.92.214, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/19 15:43:36 [info] 4547#0: *728 client 106.2.125.215 closed keepalive connection
+2017/03/19 15:43:37 [info] 4547#0: *730 client sent invalid method while reading client request line, client: 106.2.125.215, server: localhost, request: "       "
+2017/03/19 15:43:37 [info] 4547#0: *730 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.2.125.215, server: localhost, request: "       "
+2017/03/19 15:43:37 [info] 4547#0: *731 client sent invalid method while reading client request line, client: 106.2.125.215, server: localhost, request: " "
+2017/03/19 15:43:38 [info] 4547#0: *731 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.2.125.215, server: localhost, request: " "
+2017/03/19 15:43:38 [info] 4547#0: *732 client sent invalid method while reading client request line, client: 120.32.65.227, server: localhost, request: " "
+2017/03/19 15:43:38 [info] 4547#0: *732 recv() failed (104: Connection reset by peer) while reading client request line, client: 120.32.65.227, server: localhost, request: " "
+2017/03/19 16:12:44 [info] 4547#0: *733 recv() failed (104: Connection reset by peer) while sending to client, client: 186.4.199.25, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/19 16:37:47 [info] 4547#0: *735 recv() failed (104: Connection reset by peer) while sending to client, client: 41.230.55.20, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/19 17:08:13 [info] 4547#0: *737 recv() failed (104: Connection reset by peer) while sending to client, client: 118.136.8.235, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/19 17:08:16 [info] 4547#0: *739 recv() failed (104: Connection reset by peer) while sending to client, client: 118.136.8.235, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/19 18:00:30 [info] 4547#0: *741 recv() failed (104: Connection reset by peer) while sending to client, client: 78.48.194.11, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/19 19:37:16 [info] 4547#0: *743 client closed connection while waiting for request, client: 58.240.194.114, server: 0.0.0.0:80
+2017/03/19 20:33:52 [info] 4547#0: *744 recv() failed (104: Connection reset by peer) while sending to client, client: 1.54.10.31, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/19 22:45:17 [info] 4547#0: *748 recv() failed (104: Connection reset by peer) while sending to client, client: 189.152.175.52, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/19 23:20:05 [info] 4547#0: *750 recv() failed (104: Connection reset by peer) while sending to client, client: 62.219.236.70, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/20 00:13:34 [info] 4547#0: *752 recv() failed (104: Connection reset by peer) while sending to client, client: 185.73.96.239, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/20 01:37:55 [info] 4547#0: *754 client 91.196.50.33 closed keepalive connection
+2017/03/20 02:09:36 [info] 4547#0: *756 recv() failed (104: Connection reset by peer) while sending to client, client: 171.232.76.148, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/20 05:55:53 [info] 4547#0: *763 client 117.103.68.121 closed keepalive connection
+2017/03/20 07:58:56 [info] 4547#0: *765 recv() failed (104: Connection reset by peer) while sending to client, client: 187.162.254.133, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/20 08:56:52 [info] 4547#0: *767 recv() failed (104: Connection reset by peer) while sending to client, client: 203.96.159.62, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/20 11:57:16 [info] 4547#0: *769 client sent HTTP/1.1 request without "Host" header while reading client request headers, client: 192.99.111.100, server: localhost, request: "GET /w00tw00t.at.ISC.SANS.DFind:) HTTP/1.1"
+2017/03/20 12:04:19 [info] 4547#0: *770 client sent HTTP/1.1 request without "Host" header while reading client request headers, client: 192.99.111.100, server: localhost, request: "GET /w00tw00t.at.ISC.SANS.DFind:) HTTP/1.1"
+2017/03/20 12:08:00 [info] 4547#0: *775 client closed connection while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/20 12:08:00 [info] 4547#0: *774 client closed connection while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/20 12:28:07 [info] 4547#0: *777 recv() failed (104: Connection reset by peer) while sending to client, client: 42.112.187.246, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/20 13:23:18 [info] 4547#0: *789 client closed connection while waiting for request, client: 82.81.45.84, server: 0.0.0.0:80
+2017/03/20 13:46:59 [info] 4547#0: *794 client closed connection while waiting for request, client: 14.116.1.139, server: 0.0.0.0:80
+2017/03/20 13:56:05 [info] 4547#0: *799 client closed connection while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/20 13:56:05 [info] 4547#0: *798 client closed connection while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/20 13:56:05 [info] 4547#0: *801 client closed connection while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/20 13:56:05 [info] 4547#0: *800 client closed connection while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/20 14:28:06 [info] 4547#0: *805 client 185.25.148.240 closed keepalive connection
+2017/03/20 14:51:52 [info] 4547#0: *807 recv() failed (104: Connection reset by peer) while sending to client, client: 98.254.84.183, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/20 15:54:21 [info] 4547#0: *809 recv() failed (104: Connection reset by peer) while sending to client, client: 189.253.15.70, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/20 17:20:08 [info] 4547#0: *819 recv() failed (104: Connection reset by peer) while sending to client, client: 58.84.32.11, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/20 19:01:48 [info] 4547#0: *823 recv() failed (104: Connection reset by peer) while sending to client, client: 110.139.89.131, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/20 20:25:25 [info] 4547#0: *825 client 198.20.69.74 closed keepalive connection
+2017/03/20 20:49:35 [info] 4547#0: *827 recv() failed (104: Connection reset by peer) while sending to client, client: 85.75.92.42, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/21 00:34:56 [info] 4547#0: *829 recv() failed (104: Connection reset by peer) while waiting for request, client: 195.154.182.164, server: 0.0.0.0:80
+2017/03/21 00:35:02 [info] 4547#0: *830 recv() failed (104: Connection reset by peer) while sending response to client, client: 195.154.182.164, server: localhost, request: "HEAD /robots.txt HTTP/1.0"
+2017/03/21 03:26:29 [info] 4547#0: *831 client 91.196.50.33 closed keepalive connection
+2017/03/21 03:49:56 [info] 4547#0: *837 client closed connection while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/21 03:49:56 [info] 4547#0: *839 client closed connection while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/21 03:49:56 [info] 4547#0: *841 client closed connection while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/21 03:51:12 [info] 4547#0: *842 client closed connection while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/21 03:59:29 [info] 4547#0: *849 client 103.42.216.39 closed keepalive connection
+2017/03/21 04:00:44 [info] 4547#0: *853 client 103.42.216.39 closed keepalive connection
+2017/03/21 04:34:55 [info] 4547#0: *863 client closed connection while waiting for request, client: 42.54.195.209, server: 0.0.0.0:80
+2017/03/21 06:24:51 [info] 4547#0: *866 client 45.63.92.80 closed keepalive connection
+2017/03/21 06:32:02 [info] 4547#0: *868 client sent invalid method while reading client request line, client: 47.203.88.36, server: localhost, request: " "
+2017/03/21 06:33:40 [info] 4547#0: *869 client 47.203.88.36 closed keepalive connection
+2017/03/21 06:33:40 [info] 4547#0: *871 client sent invalid method while reading client request line, client: 47.203.88.36, server: localhost, request: " P∆2Éú0 "
+2017/03/21 06:33:41 [info] 4547#0: *872 client sent invalid method while reading client request line, client: 47.203.88.36, server: localhost, request: " P∆2Éú0 "
+2017/03/21 06:33:41 [info] 4547#0: *873 client sent invalid method while reading client request line, client: 47.203.88.36, server: localhost, request: " "
+2017/03/21 08:09:47 [info] 4547#0: *878 client closed connection while waiting for request, client: 139.196.101.191, server: 0.0.0.0:80
+2017/03/21 08:30:54 [info] 4547#0: *879 client closed connection while waiting for request, client: 139.196.101.191, server: 0.0.0.0:80
+2017/03/21 08:36:28 [info] 4547#0: *882 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/21 08:36:46 [info] 4547#0: *883 client closed connection while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/21 08:38:48 [info] 4547#0: *885 client closed connection while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/21 08:38:48 [info] 4547#0: *887 client closed connection while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/21 08:38:48 [info] 4547#0: *884 client closed connection while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/21 08:38:48 [info] 4547#0: *886 client closed connection while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/21 08:40:04 [info] 4547#0: *888 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/21 09:12:20 [info] 4547#0: *892 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/21 09:12:20 [info] 4547#0: *893 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/21 09:14:32 [info] 4547#0: *896 client closed connection while waiting for request, client: 103.42.216.39, server: 0.0.0.0:80
+2017/03/21 10:42:57 [info] 4547#0: *901 client 103.42.216.39 closed keepalive connection
+2017/03/21 10:51:14 [info] 4547#0: *905 client 103.42.216.39 closed keepalive connection
+2017/03/21 10:56:20 [info] 4547#0: *907 recv() failed (104: Connection reset by peer) while sending to client, client: 60.53.104.58, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/21 11:02:45 [info] 4547#0: *909 client 103.42.216.39 closed keepalive connection
+2017/03/21 11:08:46 [info] 4547#0: *913 client 193.63.58.83 closed keepalive connection
+2017/03/21 13:23:22 [info] 4547#0: *917 client 110.90.95.163 closed keepalive connection (104: Connection reset by peer)
+2017/03/21 13:55:38 [info] 4547#0: *1073 recv() failed (104: Connection reset by peer) while sending to client, client: 203.153.20.101, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/21 15:34:23 [info] 4547#0: *1075 client 59.111.29.6 closed keepalive connection
+2017/03/21 15:34:23 [info] 4547#0: *1077 client sent invalid method while reading client request line, client: 59.111.29.6, server: localhost, request: "       "
+2017/03/21 15:34:26 [info] 4547#0: *1077 recv() failed (104: Connection reset by peer) while reading client request line, client: 59.111.29.6, server: localhost, request: "       "
+2017/03/21 15:34:28 [info] 4547#0: *1078 client sent invalid method while reading client request line, client: 59.111.29.6, server: localhost, request: " "
+2017/03/21 15:34:29 [info] 4547#0: *1078 recv() failed (104: Connection reset by peer) while reading client request line, client: 59.111.29.6, server: localhost, request: " "
+2017/03/21 15:34:41 [info] 4547#0: *1079 client sent invalid method while reading client request line, client: 117.36.119.238, server: localhost, request: " "
+2017/03/21 15:34:41 [info] 4547#0: *1079 recv() failed (104: Connection reset by peer) while reading client request line, client: 117.36.119.238, server: localhost, request: " "
+2017/03/21 15:40:13 [info] 4547#0: *1080 recv() failed (104: Connection reset by peer) while sending to client, client: 109.197.29.249, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/21 17:19:43 [info] 4547#0: *1082 client 91.196.50.33 closed keepalive connection
+2017/03/21 19:11:37 [info] 4547#0: *1084 recv() failed (104: Connection reset by peer) while sending to client, client: 89.213.8.153, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/21 22:19:55 [info] 4547#0: *1090 recv() failed (104: Connection reset by peer) while sending to client, client: 14.169.32.238, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/21 23:06:05 [info] 4547#0: *1092 recv() failed (104: Connection reset by peer) while sending to client, client: 175.140.85.237, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/22 01:13:17 [info] 4547#0: *1094 recv() failed (104: Connection reset by peer) while sending to client, client: 101.109.190.10, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/22 01:15:56 [info] 4547#0: *1096 recv() failed (104: Connection reset by peer) while sending to client, client: 203.153.23.143, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/22 01:36:11 [info] 4547#0: *1098 client closed connection while waiting for request, client: 1.214.89.69, server: 0.0.0.0:80
+2017/03/22 01:36:12 [info] 4547#0: *1099 client 1.214.89.69 closed keepalive connection
+2017/03/22 04:00:11 [info] 4547#0: *1101 client closed connection while waiting for request, client: 1.214.89.69, server: 0.0.0.0:80
+2017/03/22 04:00:11 [info] 4547#0: *1102 client 1.214.89.69 closed keepalive connection
+2017/03/22 04:38:41 [info] 4547#0: *1104 client 185.25.148.240 closed keepalive connection
+2017/03/22 05:25:10 [info] 4547#0: *1106 client 103.42.216.43 closed keepalive connection
+2017/03/22 05:36:26 [info] 4547#0: *1108 client 103.42.216.43 closed keepalive connection
+2017/03/22 09:15:03 [info] 4547#0: *1122 client 157.52.163.34 closed keepalive connection (104: Connection reset by peer)
+2017/03/22 09:32:16 [info] 4547#0: *1150 client closed connection while waiting for request, client: 103.42.216.43, server: 0.0.0.0:80
+2017/03/22 10:38:37 [info] 4547#0: *1166 recv() failed (104: Connection reset by peer) while sending to client, client: 187.228.50.10, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/22 11:45:28 [info] 4547#0: *1170 client closed connection while waiting for request, client: 54.202.96.108, server: 0.0.0.0:80
+2017/03/22 11:58:12 [info] 4547#0: *1173 client 70.32.33.90 closed keepalive connection (104: Connection reset by peer)
+2017/03/22 12:10:48 [info] 4547#0: *1175 recv() failed (104: Connection reset by peer) while sending to client, client: 96.234.129.9, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/22 13:00:05 [info] 4547#0: *1181 recv() failed (104: Connection reset by peer) while sending to client, client: 84.92.85.113, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/22 13:43:09 [info] 4547#0: *1183 recv() failed (104: Connection reset by peer) while sending to client, client: 59.152.241.242, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/22 13:43:09 [info] 4547#0: *1185 recv() failed (104: Connection reset by peer) while sending to client, client: 59.152.241.242, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/22 15:34:15 [info] 4547#0: *1187 client 106.2.125.215 closed keepalive connection
+2017/03/22 15:34:17 [info] 4547#0: *1189 client sent invalid method while reading client request line, client: 106.2.125.215, server: localhost, request: "       "
+2017/03/22 15:34:17 [info] 4547#0: *1189 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.2.125.215, server: localhost, request: "       "
+2017/03/22 15:34:17 [info] 4547#0: *1190 client sent invalid method while reading client request line, client: 101.24.117.145, server: localhost, request: " "
+2017/03/22 15:34:18 [info] 4547#0: *1190 recv() failed (104: Connection reset by peer) while reading client request line, client: 101.24.117.145, server: localhost, request: " "
+2017/03/22 15:34:18 [info] 4547#0: *1191 client sent invalid method while reading client request line, client: 106.2.125.215, server: localhost, request: " "
+2017/03/22 15:34:19 [info] 4547#0: *1191 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.2.125.215, server: localhost, request: " "
+2017/03/22 16:13:18 [info] 4547#0: *1195 client timed out (110: Connection timed out) while waiting for request, client: 123.103.15.162, server: 0.0.0.0:80
+2017/03/22 18:04:23 [info] 4547#0: *1200 client 180.97.106.161 closed keepalive connection
+2017/03/22 19:13:34 [info] 4547#0: *1202 client 185.25.148.240 closed keepalive connection
+2017/03/22 19:47:38 [info] 4547#0: *1204 client 183.129.160.229 closed keepalive connection
+2017/03/22 20:52:34 [info] 4547#0: *1222 recv() failed (104: Connection reset by peer) while sending to client, client: 108.36.221.139, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/22 21:43:33 [info] 4547#0: *1224 recv() failed (104: Connection reset by peer) while sending to client, client: 189.243.61.205, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/22 22:44:44 [info] 4547#0: *1226 recv() failed (104: Connection reset by peer) while sending to client, client: 83.186.88.248, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/23 02:31:50 [info] 4547#0: *1232 client sent invalid method while reading client request line, client: 180.97.106.162, server: localhost, request: " P¥£qR "
+2017/03/23 03:41:29 [info] 4547#0: *1235 client 177.8.228.166 closed keepalive connection
+2017/03/23 03:50:27 [info] 4547#0: *1237 recv() failed (104: Connection reset by peer) while sending to client, client: 193.225.104.133, server: localhost, request: "GET /cgi-bin/test-cgi HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/cgi-bin/test-cgi", host: "103.253.146.26"
+2017/03/23 03:53:17 [info] 4547#0: *1239 client 177.8.228.166 closed keepalive connection
+2017/03/23 04:14:55 [info] 4547#0: *1241 recv() failed (104: Connection reset by peer) while sending to client, client: 123.204.238.167, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/23 05:07:50 [info] 4547#0: *1243 client sent invalid method while reading client request line, client: 180.97.106.37, server: localhost, request: " "
+2017/03/23 05:18:21 [info] 4547#0: *1244 client 37.9.169.9 closed keepalive connection
+2017/03/23 06:19:30 [info] 4547#0: *1246 client 91.196.50.33 closed keepalive connection
+2017/03/23 06:21:10 [info] 4547#0: *1248 client 190.239.16.194 closed keepalive connection
+2017/03/23 06:39:26 [info] 4547#0: *1250 client 104.130.175.7 closed keepalive connection
+2017/03/23 06:40:44 [info] 4547#0: *1252 client closed connection while waiting for request, client: 1.193.240.110, server: 0.0.0.0:80
+2017/03/23 06:41:25 [info] 4547#0: *1253 client 89.163.132.6 closed keepalive connection
+2017/03/23 06:44:20 [info] 4547#0: *1255 client 155.133.82.12 closed keepalive connection
+2017/03/23 07:21:55 [info] 4547#0: *1257 client 125.212.252.32 closed keepalive connection
+2017/03/23 07:25:53 [info] 4547#0: *1259 client 181.121.4.103 closed keepalive connection
+2017/03/23 08:37:15 [info] 4547#0: *1272 client 103.42.216.2 closed keepalive connection
+2017/03/23 09:07:51 [info] 4547#0: *1290 client sent invalid request while reading client request line, client: 123.56.218.29, server: localhost, request: "GET  HTTP/1.1"
+2017/03/23 10:58:13 [info] 4547#0: *1297 client 151.0.205.226 closed keepalive connection
+2017/03/23 11:10:03 [info] 4547#0: *1299 client 83.246.109.98 closed keepalive connection
+2017/03/23 12:56:46 [info] 4547#0: *1323 client 139.162.124.40 closed keepalive connection
+2017/03/23 12:57:51 [info] 4547#0: *1325 recv() failed (104: Connection reset by peer) while sending to client, client: 179.37.140.170, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/23 13:08:20 [info] 4547#0: *1327 client 187.115.73.70 closed keepalive connection
+2017/03/23 13:24:15 [info] 4547#0: *1329 client 54.221.47.38 closed keepalive connection
+2017/03/23 13:24:16 [info] 4547#0: *1331 client 54.221.47.38 closed keepalive connection
+2017/03/23 13:38:36 [info] 4547#0: *1333 client 174.143.143.155 closed keepalive connection
+2017/03/23 13:42:30 [info] 4547#0: *1335 client 176.9.72.102 closed keepalive connection
+2017/03/23 13:42:30 [info] 4547#0: *1337 client 176.9.72.102 closed keepalive connection
+2017/03/23 13:43:52 [info] 4547#0: *1339 client 121.196.225.253 closed keepalive connection
+2017/03/23 13:51:26 [info] 4547#0: *1341 client 181.49.2.134 closed keepalive connection
+2017/03/23 14:21:01 [info] 4547#0: *1343 client 54.221.47.38 closed keepalive connection
+2017/03/23 14:21:01 [info] 4547#0: *1345 client 54.221.47.38 closed keepalive connection
+2017/03/23 14:41:32 [info] 4547#0: *1347 client 185.66.124.43 closed keepalive connection
+2017/03/23 14:41:33 [info] 4547#0: *1349 client 185.66.124.43 closed keepalive connection
+2017/03/23 14:48:20 [info] 4547#0: *1351 client 61.19.113.155 closed keepalive connection
+2017/03/23 14:52:12 [info] 4547#0: *1353 client 78.47.225.189 closed keepalive connection
+2017/03/23 14:52:12 [info] 4547#0: *1355 client 78.47.225.189 closed keepalive connection
+2017/03/23 15:20:14 [info] 4547#0: *1357 client 85.114.137.176 closed keepalive connection
+2017/03/23 15:20:15 [info] 4547#0: *1359 client 85.114.137.176 closed keepalive connection
+2017/03/23 15:26:49 [info] 4547#0: *1361 client 178.62.0.135 closed keepalive connection
+2017/03/23 15:26:49 [info] 4547#0: *1363 client 178.62.0.135 closed keepalive connection
+2017/03/23 15:31:11 [info] 4547#0: *1365 recv() failed (104: Connection reset by peer) while sending to client, client: 113.170.207.214, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/23 15:34:17 [info] 4547#0: *1367 client 106.2.124.185 closed keepalive connection
+2017/03/23 15:34:17 [info] 4547#0: *1369 client sent invalid method while reading client request line, client: 106.2.124.185, server: localhost, request: "       "
+2017/03/23 15:34:21 [info] 4547#0: *1370 client sent invalid method while reading client request line, client: 106.2.124.185, server: localhost, request: " "
+2017/03/23 15:34:21 [info] 4547#0: *1371 client sent invalid method while reading client request line, client: 27.211.183.189, server: localhost, request: " "
+2017/03/23 15:34:21 [info] 4547#0: *1370 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.2.124.185, server: localhost, request: " "
+2017/03/23 15:34:21 [info] 4547#0: *1371 recv() failed (104: Connection reset by peer) while reading client request line, client: 27.211.183.189, server: localhost, request: " "
+2017/03/23 16:04:52 [info] 4547#0: *1372 client 188.165.172.114 closed keepalive connection
+2017/03/23 16:04:52 [info] 4547#0: *1374 client 188.165.172.114 closed keepalive connection
+2017/03/23 16:26:37 [info] 4547#0: *1376 recv() failed (104: Connection reset by peer) while sending to client, client: 62.90.187.116, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/23 16:26:39 [info] 4547#0: *1378 recv() failed (104: Connection reset by peer) while sending to client, client: 62.90.187.116, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/23 16:26:58 [info] 4547#0: *1380 recv() failed (104: Connection reset by peer) while sending to client, client: 62.90.187.116, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/23 16:27:14 [info] 4547#0: *1382 recv() failed (104: Connection reset by peer) while sending to client, client: 62.90.187.116, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/23 16:31:21 [info] 4547#0: *1384 client 177.8.228.166 closed keepalive connection
+2017/03/23 16:31:23 [info] 4547#0: *1386 client 177.8.228.166 closed keepalive connection
+2017/03/23 16:34:15 [info] 4547#0: *1388 client 151.0.205.226 closed keepalive connection
+2017/03/23 16:34:15 [info] 4547#0: *1390 client 151.0.205.226 closed keepalive connection
+2017/03/23 16:41:29 [info] 4547#0: *1392 client 188.165.172.114 closed keepalive connection
+2017/03/23 16:41:30 [info] 4547#0: *1394 client 188.165.172.114 closed keepalive connection
+2017/03/23 17:33:49 [info] 4547#0: *1396 client 144.76.78.80 closed keepalive connection
+2017/03/23 17:33:49 [info] 4547#0: *1398 client 144.76.78.80 closed keepalive connection
+2017/03/23 17:53:01 [info] 4547#0: *1400 client 94.102.49.26 closed keepalive connection
+2017/03/23 18:24:07 [info] 4547#0: *1402 client 35.157.17.90 closed keepalive connection
+2017/03/23 18:24:08 [info] 4547#0: *1404 client 35.157.17.90 closed keepalive connection
+2017/03/23 18:54:03 [info] 4547#0: *1409 recv() failed (104: Connection reset by peer) while sending to client, client: 114.36.234.99, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/23 19:30:02 [info] 4547#0: *1411 recv() failed (104: Connection reset by peer) while sending to client, client: 114.5.12.230, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/23 20:20:41 [info] 4547#0: *1413 client 91.196.50.33 closed keepalive connection
+2017/03/23 20:21:53 [info] 4547#0: *1415 recv() failed (104: Connection reset by peer) while sending to client, client: 85.121.37.190, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/23 20:49:10 [info] 4547#0: *1417 client 178.238.222.219 closed keepalive connection
+2017/03/23 20:49:11 [info] 4547#0: *1419 client 178.238.222.219 closed keepalive connection
+2017/03/23 21:14:36 [info] 4547#0: *1421 client 187.123.56.30 closed keepalive connection
+2017/03/23 21:14:38 [info] 4547#0: *1423 client 187.123.56.30 closed keepalive connection
+2017/03/23 22:25:33 [info] 4547#0: *1425 recv() failed (104: Connection reset by peer) while sending to client, client: 80.147.208.105, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/23 22:34:04 [info] 4547#0: *1427 client 213.202.229.83 closed keepalive connection
+2017/03/23 22:34:05 [info] 4547#0: *1429 client 213.202.229.83 closed keepalive connection
+2017/03/23 23:40:36 [info] 4547#0: *1431 client 120.55.88.177 closed keepalive connection
+2017/03/23 23:40:40 [info] 4547#0: *1433 client 120.55.88.177 closed keepalive connection
+2017/03/23 23:54:46 [info] 4547#0: *1435 recv() failed (104: Connection reset by peer) while sending to client, client: 109.102.158.71, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/23 23:57:21 [info] 4547#0: *1437 recv() failed (104: Connection reset by peer) while sending to client, client: 2.50.31.68, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/24 01:08:24 [info] 4547#0: *1439 client 185.88.4.98 closed keepalive connection
+2017/03/24 01:08:24 [info] 4547#0: *1441 client 185.88.4.98 closed keepalive connection
+2017/03/24 01:30:47 [info] 4547#0: *1443 client 125.227.38.168 closed keepalive connection
+2017/03/24 01:30:47 [info] 4547#0: *1445 client 125.227.38.168 closed keepalive connection
+2017/03/24 01:32:51 [info] 4547#0: *1447 recv() failed (104: Connection reset by peer) while sending to client, client: 73.77.86.3, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/24 02:09:36 [info] 4547#0: *1469 client 54.153.124.56 closed keepalive connection
+2017/03/24 02:09:36 [info] 4547#0: *1471 client 54.153.124.56 closed keepalive connection
+2017/03/24 05:23:14 [info] 4547#0: *1473 sendfile() failed (104: Connection reset by peer) while sending response to client, client: 103.215.192.1, server: localhost, request: "GET /assets/application-2875f0e4607cc022b5d8048142ca3911adb3b7592bd682d223b12d7dac96b39c.css HTTP/1.1", host: "103.253.146.26", referrer: "http://103.253.146.26/"
+2017/03/24 05:24:15 [info] 4547#0: *1475 client timed out (110: Connection timed out) while sending response to client, client: 103.215.192.1, server: localhost, request: "GET /assets/application-cb031875b7fb8fd8d16a012e01a99bfe56ad396f1e6dca6ec12305be0b6eaa18.js HTTP/1.1", host: "103.253.146.26", referrer: "http://103.253.146.26/"
+2017/03/24 05:25:09 [info] 4547#0: *1481 client prematurely closed connection while sending response to client, client: 103.215.192.1, server: localhost, request: "GET /assets/application-cb031875b7fb8fd8d16a012e01a99bfe56ad396f1e6dca6ec12305be0b6eaa18.js HTTP/1.1", host: "103.253.146.26", referrer: "http://103.253.146.26/"
+2017/03/24 05:25:29 [info] 4547#0: *1482 client prematurely closed connection while sending response to client, client: 103.215.192.1, server: localhost, request: "GET /assets/application-cb031875b7fb8fd8d16a012e01a99bfe56ad396f1e6dca6ec12305be0b6eaa18.js HTTP/1.1", host: "103.253.146.26", referrer: "http://103.253.146.26/"
+2017/03/24 05:25:29 [info] 4547#0: *1484 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 05:25:29 [info] 4547#0: *1483 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 05:25:29 [info] 4547#0: *1487 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 05:25:55 [info] 4547#0: *1478 client timed out (110: Connection timed out) while waiting for request, client: 103.215.192.0, server: 0.0.0.0:80
+2017/03/24 05:25:55 [info] 4547#0: *1479 client timed out (110: Connection timed out) while waiting for request, client: 103.215.192.0, server: 0.0.0.0:80
+2017/03/24 05:26:18 [info] 4547#0: *1490 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 05:27:17 [info] 4547#0: *1499 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 05:27:17 [info] 4547#0: *1498 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 05:27:17 [info] 4547#0: *1500 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 05:29:51 [info] 4547#0: *1502 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 05:29:51 [info] 4547#0: *1503 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 05:31:12 [info] 4547#0: *1510 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 05:31:12 [info] 4547#0: *1509 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 05:31:12 [info] 4547#0: *1511 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 05:31:12 [info] 4547#0: *1512 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 05:31:12 [info] 4547#0: *1513 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 06:19:59 [info] 4547#0: *1540 client 103.215.192.1 closed keepalive connection
+2017/03/24 06:20:11 [info] 4547#0: *1542 client 103.215.192.1 closed keepalive connection
+2017/03/24 06:20:28 [info] 4547#0: *1546 client 103.215.192.1 closed keepalive connection
+2017/03/24 06:21:52 [info] 4547#0: *1563 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 06:21:52 [info] 4547#0: *1564 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 06:22:38 [info] 4547#0: *1565 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 06:22:38 [info] 4547#0: *1566 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 06:23:39 [info] 4547#0: *1569 client timed out (110: Connection timed out) while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 06:26:02 [info] 4547#0: *1570 client 134.213.59.150 closed keepalive connection
+2017/03/24 06:26:02 [info] 4547#0: *1572 client 134.213.59.150 closed keepalive connection
+2017/03/24 06:27:41 [info] 4547#0: *1578 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 06:28:11 [info] 4547#0: *1582 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 06:31:21 [info] 4547#0: *1591 client closed connection while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 06:35:49 [info] 4547#0: *1613 client timed out (110: Connection timed out) while waiting for request, client: 103.215.192.1, server: 0.0.0.0:80
+2017/03/24 07:34:51 [info] 4547#0: *1617 client 103.42.216.2 closed keepalive connection
+2017/03/24 07:35:35 [info] 4547#0: *1620 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/24 07:39:17 [info] 4547#0: *1630 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/24 07:46:08 [info] 4547#0: *1636 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/24 07:48:52 [info] 4547#0: *1641 client 103.42.216.2 closed keepalive connection
+2017/03/24 07:49:52 [info] 4547#0: *1653 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/24 07:54:26 [info] 4547#0: *1658 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/24 07:55:35 [info] 4547#0: *1661 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/24 08:04:47 [info] 4547#0: *1680 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/24 08:06:52 [info] 4547#0: *1685 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/24 08:08:06 [info] 4547#0: *1690 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/24 08:08:06 [info] 4547#0: *1688 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/24 08:08:06 [info] 4547#0: *1689 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/24 08:08:06 [info] 4547#0: *1691 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/24 08:08:06 [info] 4547#0: *1692 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/24 08:10:01 [info] 4547#0: *1702 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/24 08:10:20 [info] 4547#0: *1707 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/24 08:10:32 [info] 4547#0: *1710 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/24 08:11:54 [info] 4547#0: *1716 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/24 08:19:41 [info] 4547#0: *1728 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/24 08:55:34 [info] 4547#0: *1743 client 66.240.192.138 closed keepalive connection
+2017/03/24 08:55:34 [info] 4547#0: *1745 client 66.240.192.138 closed keepalive connection
+2017/03/24 08:55:37 [info] 4547#0: *1746 client 66.240.192.138 closed keepalive connection (104: Connection reset by peer)
+2017/03/24 09:04:39 [info] 4547#0: *1748 client 185.25.148.240 closed keepalive connection
+2017/03/24 09:34:07 [info] 4547#0: *1754 client 62.214.160.250 closed keepalive connection
+2017/03/24 09:34:08 [info] 4547#0: *1756 client 62.214.160.250 closed keepalive connection
+2017/03/24 10:14:56 [info] 4547#0: *1766 client 203.113.10.12 closed keepalive connection
+2017/03/24 10:22:53 [info] 4547#0: *1768 recv() failed (104: Connection reset by peer) while sending to client, client: 61.112.123.79, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/24 10:44:49 [info] 4547#0: *1770 client 157.193.230.7 closed keepalive connection
+2017/03/24 10:44:50 [info] 4547#0: *1772 client 157.193.230.7 closed keepalive connection
+2017/03/24 10:50:21 [info] 4547#0: *1774 client 93.56.12.164 closed keepalive connection
+2017/03/24 10:50:22 [info] 4547#0: *1776 client 93.56.12.164 closed keepalive connection
+2017/03/24 11:15:19 [info] 4547#0: *1784 client 198.50.144.37 closed keepalive connection
+2017/03/24 11:15:19 [info] 4547#0: *1786 client 198.50.144.37 closed keepalive connection
+2017/03/24 12:05:56 [info] 4547#0: *1790 client 51.255.205.6 closed keepalive connection
+2017/03/24 12:05:57 [info] 4547#0: *1792 client 51.255.205.6 closed keepalive connection
+2017/03/24 12:59:48 [info] 4547#0: *1794 recv() failed (104: Connection reset by peer) while sending to client, client: 118.100.136.85, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/24 15:21:28 [info] 4547#0: *1802 client 141.212.122.32 closed keepalive connection
+2017/03/24 15:45:20 [info] 4547#0: *1808 client 106.2.124.185 closed keepalive connection
+2017/03/24 15:45:20 [info] 4547#0: *1810 client sent invalid method while reading client request line, client: 106.2.124.185, server: localhost, request: "       "
+2017/03/24 15:45:22 [info] 4547#0: *1810 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.2.124.185, server: localhost, request: "       "
+2017/03/24 15:45:23 [info] 4547#0: *1811 client sent invalid method while reading client request line, client: 106.2.124.185, server: localhost, request: " "
+2017/03/24 15:45:24 [info] 4547#0: *1811 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.2.124.185, server: localhost, request: " "
+2017/03/24 16:26:41 [info] 4547#0: *1812 client 201.213.164.27 closed keepalive connection
+2017/03/24 16:26:42 [info] 4547#0: *1814 client 201.213.164.27 closed keepalive connection
+2017/03/24 16:26:43 [info] 4547#0: *1816 client 201.213.164.27 closed keepalive connection
+2017/03/24 16:26:44 [info] 4547#0: *1818 client 201.213.164.27 closed keepalive connection
+2017/03/24 16:26:45 [info] 4547#0: *1820 client 201.213.164.27 closed keepalive connection
+2017/03/24 16:26:45 [info] 4547#0: *1822 client 201.213.164.27 closed keepalive connection
+2017/03/24 16:26:46 [info] 4547#0: *1824 client 201.213.164.27 closed keepalive connection
+2017/03/24 16:26:47 [info] 4547#0: *1826 client 201.213.164.27 closed keepalive connection
+2017/03/24 16:26:48 [info] 4547#0: *1828 client 201.213.164.27 closed keepalive connection
+2017/03/24 18:52:33 [info] 4547#0: *1830 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:34 [info] 4547#0: *1832 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:34 [info] 4547#0: *1834 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:35 [info] 4547#0: *1836 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:35 [info] 4547#0: *1838 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:36 [info] 4547#0: *1840 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:36 [info] 4547#0: *1842 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:36 [info] 4547#0: *1844 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:37 [info] 4547#0: *1846 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:37 [info] 4547#0: *1848 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:38 [info] 4547#0: *1850 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:38 [info] 4547#0: *1852 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:38 [info] 4547#0: *1854 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:39 [info] 4547#0: *1856 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:39 [info] 4547#0: *1858 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:40 [info] 4547#0: *1860 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:40 [info] 4547#0: *1862 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:41 [info] 4547#0: *1864 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:41 [info] 4547#0: *1866 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:41 [info] 4547#0: *1868 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:42 [info] 4547#0: *1870 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:42 [info] 4547#0: *1872 client 88.99.190.247 closed keepalive connection
+2017/03/24 18:52:43 [info] 4547#0: *1874 client 88.99.190.247 closed keepalive connection
+2017/03/24 20:04:15 [info] 4547#0: *1876 client 91.196.50.33 closed keepalive connection
+2017/03/24 20:21:24 [info] 4547#0: *1878 recv() failed (104: Connection reset by peer) while sending to client, client: 188.173.249.166, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/24 21:42:00 [info] 4547#0: *1882 client 213.42.95.134 closed keepalive connection (104: Connection reset by peer)
+2017/03/24 22:38:28 [info] 4547#0: *1886 recv() failed (104: Connection reset by peer) while sending to client, client: 182.52.162.147, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/24 22:49:10 [info] 4547#0: *1888 client closed connection while waiting for request, client: 61.14.208.197, server: 0.0.0.0:80
+2017/03/24 22:49:10 [info] 4547#0: *1889 client 61.14.208.197 closed keepalive connection
+2017/03/24 23:28:41 [info] 4547#0: *1891 client 163.172.99.189 closed keepalive connection
+2017/03/25 02:29:38 [info] 4547#0: *1979 client 37.111.3.214 closed keepalive connection
+2017/03/25 02:30:36 [info] 4547#0: *1981 recv() failed (104: Connection reset by peer) while sending to client, client: 220.128.128.107, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/25 03:55:36 [info] 4547#0: *1989 client 187.217.113.225 closed keepalive connection
+2017/03/25 03:55:37 [info] 4547#0: *1991 client 187.217.113.225 closed keepalive connection
+2017/03/25 04:09:29 [info] 4547#0: *1993 recv() failed (104: Connection reset by peer) while sending to client, client: 113.160.147.116, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/25 04:43:52 [info] 4547#0: *2004 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 04:44:13 [info] 4547#0: *2008 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 04:45:15 [info] 4547#0: *2015 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 04:45:15 [info] 4547#0: *2014 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 04:45:15 [info] 4547#0: *2017 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 04:45:15 [info] 4547#0: *2016 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 04:46:32 [info] 4547#0: *2026 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 04:46:32 [info] 4547#0: *2024 client 103.215.192.7 closed keepalive connection
+2017/03/25 04:48:09 [info] 4547#0: *2045 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 04:48:09 [info] 4547#0: *2044 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 04:49:05 [info] 4547#0: *2049 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 04:49:05 [info] 4547#0: *2048 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 04:49:05 [info] 4547#0: *2051 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 04:49:05 [info] 4547#0: *2050 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 04:49:16 [info] 4547#0: *2055 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 04:49:16 [info] 4547#0: *2056 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 05:00:37 [info] 4547#0: *2070 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 05:00:53 [info] 4547#0: *2071 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 05:00:53 [info] 4547#0: *2072 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 05:01:17 [info] 4547#0: *2078 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 05:02:52 [info] 4547#0: *2089 client closed connection while waiting for request, client: 103.215.192.7, server: 0.0.0.0:80
+2017/03/25 05:17:44 [info] 4547#0: *2094 recv() failed (104: Connection reset by peer) while sending to client, client: 121.121.99.33, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/25 05:43:26 [info] 4547#0: *2096 client 69.162.73.83 closed keepalive connection
+2017/03/25 05:43:27 [info] 4547#0: *2098 client 69.162.73.83 closed keepalive connection
+2017/03/25 05:43:27 [info] 4547#0: *2100 client 69.162.73.83 closed keepalive connection
+2017/03/25 05:43:28 [info] 4547#0: *2102 client 69.162.73.83 closed keepalive connection
+2017/03/25 05:43:28 [info] 4547#0: *2104 client 69.162.73.83 closed keepalive connection
+2017/03/25 05:43:29 [info] 4547#0: *2106 client 69.162.73.83 closed keepalive connection
+2017/03/25 05:43:29 [info] 4547#0: *2108 client 69.162.73.83 closed keepalive connection
+2017/03/25 05:43:30 [info] 4547#0: *2110 client 69.162.73.83 closed keepalive connection
+2017/03/25 05:43:30 [info] 4547#0: *2112 client 69.162.73.83 closed keepalive connection
+2017/03/25 06:03:28 [info] 4547#0: *2114 recv() failed (104: Connection reset by peer) while sending to client, client: 49.245.161.128, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/25 08:32:16 [info] 4547#0: *2116 client 112.196.54.138 closed keepalive connection
+2017/03/25 08:32:16 [info] 4547#0: *2118 client 112.196.54.138 closed keepalive connection
+2017/03/25 08:32:16 [info] 4547#0: *2120 client 112.196.54.138 closed keepalive connection
+2017/03/25 08:32:17 [info] 4547#0: *2122 client 112.196.54.138 closed keepalive connection
+2017/03/25 08:32:17 [info] 4547#0: *2124 client 112.196.54.138 closed keepalive connection
+2017/03/25 08:32:17 [info] 4547#0: *2126 client 112.196.54.138 closed keepalive connection
+2017/03/25 08:32:17 [info] 4547#0: *2128 client 112.196.54.138 closed keepalive connection
+2017/03/25 08:32:17 [info] 4547#0: *2130 client 112.196.54.138 closed keepalive connection
+2017/03/25 08:32:18 [info] 4547#0: *2132 client 112.196.54.138 closed keepalive connection
+2017/03/25 08:47:45 [info] 4547#0: *2134 client 91.196.50.33 closed keepalive connection
+2017/03/25 10:31:41 [info] 4547#0: *2141 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/25 10:31:41 [info] 4547#0: *2142 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/25 10:31:41 [info] 4547#0: *2143 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/25 11:12:51 [info] 4547#0: *2146 recv() failed (104: Connection reset by peer) while sending to client, client: 175.143.203.160, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/25 11:29:31 [info] 4547#0: *2148 client closed connection while waiting for request, client: 171.98.120.180, server: 0.0.0.0:80
+2017/03/25 11:29:37 [info] 4547#0: *2151 client closed connection while waiting for request, client: 171.98.120.180, server: 0.0.0.0:80
+2017/03/25 12:36:37 [info] 4547#0: *2152 recv() failed (104: Connection reset by peer) while sending to client, client: 190.219.115.187, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/25 12:50:48 [info] 4547#0: *2156 recv() failed (104: Connection reset by peer) while sending to client, client: 100.34.1.117, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/25 15:34:21 [info] 4547#0: *2160 client 59.111.29.6 closed keepalive connection
+2017/03/25 15:34:28 [info] 4547#0: *2162 client sent invalid method while reading client request line, client: 59.111.29.6, server: localhost, request: " "
+2017/03/25 15:34:30 [info] 4547#0: *2162 recv() failed (104: Connection reset by peer) while reading client request line, client: 59.111.29.6, server: localhost, request: " "
+2017/03/25 15:43:30 [info] 4547#0: *2163 client 125.227.38.168 closed keepalive connection
+2017/03/25 15:43:34 [info] 4547#0: *2165 client 125.227.38.168 closed keepalive connection
+2017/03/25 15:43:34 [info] 4547#0: *2167 client 125.227.38.168 closed keepalive connection
+2017/03/25 15:43:34 [info] 4547#0: *2169 client 125.227.38.168 closed keepalive connection
+2017/03/25 15:43:35 [info] 4547#0: *2171 client 125.227.38.168 closed keepalive connection
+2017/03/25 15:43:35 [info] 4547#0: *2173 client 125.227.38.168 closed keepalive connection
+2017/03/25 15:43:35 [info] 4547#0: *2175 client 125.227.38.168 closed keepalive connection
+2017/03/25 15:43:36 [info] 4547#0: *2177 client 125.227.38.168 closed keepalive connection
+2017/03/25 15:43:36 [info] 4547#0: *2179 client 125.227.38.168 closed keepalive connection
+2017/03/25 15:52:32 [info] 4547#0: *2181 recv() failed (104: Connection reset by peer) while sending to client, client: 79.140.30.8, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/25 16:05:58 [info] 4547#0: *2183 recv() failed (104: Connection reset by peer) while sending to client, client: 60.49.120.187, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/25 17:25:56 [info] 4547#0: *2199 client closed connection while waiting for request, client: 118.74.231.76, server: 0.0.0.0:80
+2017/03/25 18:11:51 [info] 4547#0: *2200 recv() failed (104: Connection reset by peer) while sending to client, client: 14.185.253.4, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/25 20:42:39 [info] 4547#0: *2204 client closed connection while waiting for request, client: 82.67.160.40, server: 0.0.0.0:80
+2017/03/25 20:51:57 [info] 4547#0: *2208 client 177.72.147.94 closed keepalive connection
+2017/03/25 22:17:12 [info] 4547#0: *2210 client 91.196.50.33 closed keepalive connection
+2017/03/25 22:24:00 [info] 4547#0: *2212 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:01 [info] 4547#0: *2214 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:01 [info] 4547#0: *2216 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:01 [info] 4547#0: *2218 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:02 [info] 4547#0: *2220 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:02 [info] 4547#0: *2222 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:03 [info] 4547#0: *2224 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:03 [info] 4547#0: *2226 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:04 [info] 4547#0: *2228 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:04 [info] 4547#0: *2230 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:05 [info] 4547#0: *2232 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:05 [info] 4546#0: *2234 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:06 [info] 4546#0: *2236 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:06 [info] 4546#0: *2238 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:07 [info] 4546#0: *2240 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:07 [info] 4546#0: *2242 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:08 [info] 4546#0: *2244 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:08 [info] 4546#0: *2246 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:08 [info] 4546#0: *2248 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:09 [info] 4546#0: *2250 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:09 [info] 4546#0: *2252 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:10 [info] 4546#0: *2254 client 173.44.40.118 closed keepalive connection
+2017/03/25 22:24:10 [info] 4546#0: *2256 client 173.44.40.118 closed keepalive connection
+2017/03/25 23:26:24 [info] 4546#0: *2260 client sent invalid method while reading client request line, client: 51.6.146.196, server: localhost, request: " P[y9D "
+2017/03/25 23:26:48 [info] 4546#0: *2261 client sent invalid method while reading client request line, client: 51.6.146.196, server: localhost, request: " "
+2017/03/26 03:06:15 [info] 4546#0: *2264 client 93.56.12.164 closed keepalive connection
+2017/03/26 03:06:15 [info] 4546#0: *2266 client 93.56.12.164 closed keepalive connection
+2017/03/26 03:06:16 [info] 4546#0: *2268 client 93.56.12.164 closed keepalive connection
+2017/03/26 03:06:16 [info] 4546#0: *2270 client 93.56.12.164 closed keepalive connection
+2017/03/26 03:06:16 [info] 4546#0: *2272 client 93.56.12.164 closed keepalive connection
+2017/03/26 03:06:17 [info] 4546#0: *2274 client 93.56.12.164 closed keepalive connection
+2017/03/26 03:06:17 [info] 4546#0: *2276 client 93.56.12.164 closed keepalive connection
+2017/03/26 03:06:18 [info] 4546#0: *2278 client 93.56.12.164 closed keepalive connection
+2017/03/26 03:06:18 [info] 4546#0: *2280 client 93.56.12.164 closed keepalive connection
+2017/03/26 03:49:44 [info] 4546#0: *2282 client 118.74.231.76 closed keepalive connection
+2017/03/26 03:54:40 [info] 4546#0: *2284 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:41 [info] 4546#0: *2286 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:41 [info] 4546#0: *2288 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:41 [info] 4546#0: *2290 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:42 [info] 4546#0: *2292 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:42 [info] 4546#0: *2294 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:43 [info] 4546#0: *2296 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:43 [info] 4546#0: *2298 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:44 [info] 4546#0: *2300 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:44 [info] 4546#0: *2302 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:45 [info] 4546#0: *2304 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:45 [info] 4546#0: *2306 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:45 [info] 4546#0: *2308 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:46 [info] 4546#0: *2310 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:46 [info] 4546#0: *2312 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:47 [info] 4546#0: *2314 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:47 [info] 4546#0: *2316 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:48 [info] 4546#0: *2318 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:48 [info] 4546#0: *2320 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:48 [info] 4546#0: *2322 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:49 [info] 4546#0: *2324 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:49 [info] 4546#0: *2326 client 54.183.223.136 closed keepalive connection
+2017/03/26 03:54:50 [info] 4546#0: *2328 client 54.183.223.136 closed keepalive connection
+2017/03/26 04:32:31 [info] 4546#0: *2342 client 125.227.128.173 closed keepalive connection
+2017/03/26 04:32:31 [info] 4546#0: *2344 client 125.227.128.173 closed keepalive connection
+2017/03/26 04:32:31 [info] 4546#0: *2346 client 125.227.128.173 closed keepalive connection
+2017/03/26 04:32:32 [info] 4546#0: *2348 client 125.227.128.173 closed keepalive connection
+2017/03/26 04:32:32 [info] 4546#0: *2350 client 125.227.128.173 closed keepalive connection
+2017/03/26 04:32:32 [info] 4546#0: *2352 client 125.227.128.173 closed keepalive connection
+2017/03/26 04:32:32 [info] 4546#0: *2354 client 125.227.128.173 closed keepalive connection
+2017/03/26 04:32:32 [info] 4546#0: *2356 client 125.227.128.173 closed keepalive connection
+2017/03/26 04:32:33 [info] 4546#0: *2358 client 125.227.128.173 closed keepalive connection
+2017/03/26 05:53:28 [info] 4546#0: *2362 client closed connection while waiting for request, client: 116.15.36.173, server: 0.0.0.0:80
+2017/03/26 06:22:16 [info] 4546#0: *2363 client 47.92.38.108 closed keepalive connection
+2017/03/26 08:12:04 [info] 4546#0: *2367 client 222.186.56.121 closed keepalive connection
+2017/03/26 10:03:14 [info] 4546#0: *2385 recv() failed (104: Connection reset by peer) while sending to client, client: 200.98.141.29, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/", host: "103.253.146.26:80"
+2017/03/26 10:05:22 [info] 4546#0: *2437 recv() failed (104: Connection reset by peer) while sending to client, client: 200.98.141.29, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/", host: "103.253.146.26:80"
+2017/03/26 10:06:02 [info] 4546#0: *2453 recv() failed (104: Connection reset by peer) while sending to client, client: 200.98.141.29, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/", host: "103.253.146.26:80"
+2017/03/26 10:38:42 [info] 4546#0: *2467 recv() failed (104: Connection reset by peer) while sending to client, client: 189.167.222.166, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/26 11:13:14 [info] 4546#0: *2469 client 91.196.50.33 closed keepalive connection
+2017/03/26 11:48:17 [info] 4546#0: *2471 recv() failed (104: Connection reset by peer) while sending to client, client: 187.134.132.223, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/26 12:22:04 [info] 4546#0: *2473 client sent HTTP/1.1 request without "Host" header while reading client request headers, client: 141.212.122.16, server: localhost, request: "GET /x HTTP/1.1"
+2017/03/26 15:34:16 [info] 4546#0: *2476 client 59.111.29.6 closed keepalive connection
+2017/03/26 15:34:16 [info] 4546#0: *2478 client sent invalid method while reading client request line, client: 59.111.29.6, server: localhost, request: "       "
+2017/03/26 15:34:16 [info] 4546#0: *2478 recv() failed (104: Connection reset by peer) while reading client request line, client: 59.111.29.6, server: localhost, request: "       "
+2017/03/26 15:34:17 [info] 4546#0: *2479 client sent invalid method while reading client request line, client: 175.184.152.61, server: localhost, request: " "
+2017/03/26 15:34:17 [info] 4546#0: *2479 recv() failed (104: Connection reset by peer) while reading client request line, client: 175.184.152.61, server: localhost, request: " "
+2017/03/26 15:34:18 [info] 4546#0: *2480 client sent invalid method while reading client request line, client: 59.111.29.6, server: localhost, request: " "
+2017/03/26 15:42:12 [info] 4546#0: *2482 client 101.201.52.186 closed keepalive connection
+2017/03/26 15:42:13 [info] 4546#0: *2481 client closed connection while waiting for request, client: 101.201.52.186, server: 0.0.0.0:80
+2017/03/26 15:56:42 [info] 4546#0: *2486 client 62.178.55.82 closed keepalive connection
+2017/03/26 18:47:17 [info] 4546#0: *2488 recv() failed (104: Connection reset by peer) while waiting for request, client: 197.0.184.65, server: 0.0.0.0:80
+2017/03/26 19:43:41 [info] 4546#0: *2489 client 144.76.33.46 closed keepalive connection
+2017/03/26 19:43:42 [info] 4546#0: *2491 client 144.76.33.46 closed keepalive connection
+2017/03/26 19:43:42 [info] 4546#0: *2493 client 144.76.33.46 closed keepalive connection
+2017/03/26 19:43:42 [info] 4546#0: *2495 client 144.76.33.46 closed keepalive connection
+2017/03/26 19:43:43 [info] 4546#0: *2497 client 144.76.33.46 closed keepalive connection
+2017/03/26 19:43:43 [info] 4546#0: *2499 client 144.76.33.46 closed keepalive connection
+2017/03/26 19:43:44 [info] 4546#0: *2501 client 144.76.33.46 closed keepalive connection
+2017/03/26 19:43:44 [info] 4546#0: *2503 client 144.76.33.46 closed keepalive connection
+2017/03/26 19:43:45 [info] 4546#0: *2505 client 144.76.33.46 closed keepalive connection
+2017/03/26 23:14:57 [info] 4546#0: *2507 recv() failed (104: Connection reset by peer) while sending to client, client: 118.174.227.118, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/27 00:46:07 [info] 4546#0: *2509 client 91.196.50.33 closed keepalive connection
+2017/03/27 01:26:30 [info] 4546#0: *2511 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:30 [info] 4546#0: *2513 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:31 [info] 4546#0: *2515 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:31 [info] 4546#0: *2517 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:32 [info] 4546#0: *2519 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:32 [info] 4546#0: *2521 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:33 [info] 4546#0: *2523 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:33 [info] 4546#0: *2525 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:34 [info] 4546#0: *2527 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:34 [info] 4546#0: *2529 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:35 [info] 4546#0: *2531 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:36 [info] 4546#0: *2533 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:36 [info] 4546#0: *2535 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:36 [info] 4546#0: *2537 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:37 [info] 4546#0: *2539 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:38 [info] 4546#0: *2541 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:38 [info] 4546#0: *2543 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:39 [info] 4546#0: *2545 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:39 [info] 4546#0: *2547 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:40 [info] 4546#0: *2549 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:40 [info] 4546#0: *2551 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:41 [info] 4546#0: *2553 client 79.143.179.185 closed keepalive connection
+2017/03/27 01:26:41 [info] 4546#0: *2555 client 79.143.179.185 closed keepalive connection
+2017/03/27 02:20:04 [info] 4546#0: *2557 client closed connection while waiting for request, client: 5.178.71.146, server: 0.0.0.0:80
+2017/03/27 02:20:06 [info] 4546#0: *2558 client 5.178.71.146 closed keepalive connection
+2017/03/27 02:32:38 [info] 4546#0: *2567 recv() failed (104: Connection reset by peer) while sending to client, client: 62.150.216.36, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/27 03:47:05 [info] 4546#0: *2569 recv() failed (104: Connection reset by peer) while sending to client, client: 46.19.100.26, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/27 06:15:50 [info] 4546#0: *2573 client 89.71.244.44 closed keepalive connection
+2017/03/27 06:45:07 [info] 4546#0: *2575 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:07 [info] 4546#0: *2577 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:08 [info] 4546#0: *2579 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:08 [info] 4546#0: *2581 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:08 [info] 4546#0: *2583 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:09 [info] 4546#0: *2585 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:09 [info] 4546#0: *2587 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:10 [info] 4546#0: *2589 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:10 [info] 4546#0: *2591 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:11 [info] 4546#0: *2593 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:11 [info] 4546#0: *2595 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:11 [info] 4546#0: *2597 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:12 [info] 4546#0: *2599 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:12 [info] 4546#0: *2601 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:13 [info] 4546#0: *2603 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:13 [info] 4546#0: *2605 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:14 [info] 4546#0: *2607 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:14 [info] 4546#0: *2609 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:14 [info] 4546#0: *2611 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:15 [info] 4546#0: *2613 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:15 [info] 4546#0: *2615 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:16 [info] 4546#0: *2617 client 176.9.72.102 closed keepalive connection
+2017/03/27 06:45:16 [info] 4546#0: *2619 client 176.9.72.102 closed keepalive connection
+2017/03/27 08:20:38 [info] 4546#0: *2623 recv() failed (104: Connection reset by peer) while sending to client, client: 162.243.188.75, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/27 09:05:35 [info] 4546#0: *2625 client 92.62.132.173 closed keepalive connection
+2017/03/27 09:05:35 [info] 4546#0: *2627 client 92.62.132.173 closed keepalive connection
+2017/03/27 09:05:36 [info] 4546#0: *2629 client 92.62.132.173 closed keepalive connection
+2017/03/27 09:05:36 [info] 4546#0: *2631 client 92.62.132.173 closed keepalive connection
+2017/03/27 09:05:37 [info] 4546#0: *2633 client 92.62.132.173 closed keepalive connection
+2017/03/27 09:05:37 [info] 4546#0: *2635 client 92.62.132.173 closed keepalive connection
+2017/03/27 09:05:38 [info] 4546#0: *2637 client 92.62.132.173 closed keepalive connection
+2017/03/27 09:05:38 [info] 4546#0: *2639 client 92.62.132.173 closed keepalive connection
+2017/03/27 09:05:38 [info] 4546#0: *2641 client 92.62.132.173 closed keepalive connection
+2017/03/27 09:15:06 [info] 4546#0: *2643 recv() failed (104: Connection reset by peer) while sending to client, client: 114.33.254.182, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/27 10:52:51 [info] 4546#0: *2645 client 187.110.222.99 closed keepalive connection
+2017/03/27 11:34:56 [info] 4546#0: *2653 recv() failed (104: Connection reset by peer) while sending to client, client: 59.120.2.229, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/27 12:33:51 [info] 4546#0: *2660 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/27 13:40:13 [info] 4546#0: *2670 client 91.196.50.33 closed keepalive connection
+2017/03/27 14:22:08 [info] 4546#0: *2676 client closed connection while waiting for request, client: 37.111.10.48, server: 0.0.0.0:80
+2017/03/27 14:22:08 [info] 4546#0: *2675 client closed connection while waiting for request, client: 37.111.10.48, server: 0.0.0.0:80
+2017/03/27 14:50:37 [info] 4546#0: *2678 client timed out (110: Connection timed out) while waiting for request, client: 37.111.10.48, server: 0.0.0.0:80
+2017/03/27 14:50:37 [info] 4546#0: *2679 client timed out (110: Connection timed out) while waiting for request, client: 37.111.10.48, server: 0.0.0.0:80
+2017/03/27 14:50:37 [info] 4546#0: *2680 client timed out (110: Connection timed out) while waiting for request, client: 37.111.10.48, server: 0.0.0.0:80
+2017/03/27 14:50:37 [info] 4546#0: *2681 client timed out (110: Connection timed out) while waiting for request, client: 37.111.10.48, server: 0.0.0.0:80
+2017/03/27 14:53:58 [info] 4546#0: *2682 client 37.111.10.48 closed keepalive connection
+2017/03/27 14:54:09 [info] 4546#0: *2684 client closed connection while waiting for request, client: 37.111.10.48, server: 0.0.0.0:80
+2017/03/27 14:54:40 [info] 4546#0: *2689 client closed connection while waiting for request, client: 37.111.10.48, server: 0.0.0.0:80
+2017/03/27 14:54:40 [info] 4546#0: *2690 client closed connection while waiting for request, client: 37.111.10.48, server: 0.0.0.0:80
+2017/03/27 14:55:08 [info] 4546#0: *2691 client 37.111.10.48 closed keepalive connection
+2017/03/27 14:55:09 [info] 4546#0: *2694 client 37.111.10.48 closed keepalive connection
+2017/03/27 14:55:45 [info] 4546#0: *2698 client closed connection while waiting for request, client: 37.111.10.48, server: 0.0.0.0:80
+2017/03/27 14:56:41 [info] 808#0: *6 client 37.111.10.48 closed keepalive connection
+2017/03/27 14:56:54 [info] 808#0: *3 client 37.111.10.48 closed keepalive connection

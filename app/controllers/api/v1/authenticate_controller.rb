@@ -29,11 +29,12 @@ module Api
         @order.status = true
         if @order.save
           params.require(:details).each do |d|
-            d_permitted = d.permit(:name, :qty)
+            d_permitted = d.permit(:name, :qty, :price)
             @detail = Detail.new
             @detail.order_id = @order.id
             @detail.name = d_permitted[:name]
             @detail.qty = d_permitted[:qty]
+	    @detail.price = d_permitted[:price]
             @detail.save
           end
           render status: 200, json: {status: 'ok'}

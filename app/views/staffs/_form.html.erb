@@ -23,7 +23,8 @@
 
   <div class="field form-group">
     <%= f.label :department_id %>
-    <%= f.text_field :department_id, class: "form-control" %>
+    <%= f.select :department_id,Department.all.collect{|d| [d.name,d.id]}, class: "form-control" %>
+<!--HELLO WORLD-->
   </div>
 
   <div class="actions">

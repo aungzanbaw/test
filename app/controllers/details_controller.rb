@@ -1,6 +1,19 @@
 class DetailsController < ApplicationController
   before_action :authenticate
   before_action :set_detail, only: [:show, :edit, :update, :destroy]
+  def update_detail_get
+    detail = Detail.find_by(id: params[:detail_id])
+    detail.name = params[:name]
+    detail.price = params[:price]
+    detail.qty = params[:qty]
+
+    respond_to do |format|
+      if detail.save
+        format.html { redirect_to order_path(params[:order_id]), notice: 'Detail was successfully updated.' }
+        format.json { head :no_content }
+      end
+    end
+  end
 
   # GET /details
   # GET /details.json

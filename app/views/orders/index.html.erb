@@ -43,8 +43,14 @@
         <td><%= order.remark %></td>
         <td><%= order.payment %></td>
         <td><%= order.department.name %></td>
-        <td><%= order.status %></td>
-        <td><%= order.created_at.strftime("%e-%-m-%Y") %></td>
+        <td>
+          <% if order.status == true %>
+            <%= "Pending" %>
+          <% else %>
+            <%= "Complete" %>
+          <% end %>
+        </td>
+	<td><%= order.created_at.strftime("%e-%-m-%Y") %></td>
         <td><%= order.created_at.strftime("%H:%M:%S") %></td>
         <!-- <td>
           <%= link_to ':EXCEL', order_download_path(id: order.id, format: 'csv') %>

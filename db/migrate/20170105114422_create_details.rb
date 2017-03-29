@@ -5,7 +5,7 @@ class CreateDetails < ActiveRecord::Migration[5.0]
       # t.references :product, foreign_key: true
       t.string :name
       t.integer :qty
-      # t.integer :price
+      t.integer :price
       # t.string :remark
       t.timestamps
     end

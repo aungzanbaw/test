@@ -871,3 +871,138 @@
 2017/03/27 14:55:45 [info] 4546#0: *2698 client closed connection while waiting for request, client: 37.111.10.48, server: 0.0.0.0:80
 2017/03/27 14:56:41 [info] 808#0: *6 client 37.111.10.48 closed keepalive connection
 2017/03/27 14:56:54 [info] 808#0: *3 client 37.111.10.48 closed keepalive connection
+2017/03/27 15:06:28 [info] 808#0: *17 client closed connection while waiting for request, client: 37.111.10.48, server: 0.0.0.0:80
+2017/03/27 15:16:38 [error] 808#0: *20 connect() to unix:/home/deploy/da/shared/sockets/puma.sock failed (111: Connection refused) while connecting to upstream, client: 37.111.10.48, server: localhost, request: "GET /staffs/new HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/staffs/new", host: "103.253.146.26", referrer: "http://103.253.146.26/logout"
+2017/03/27 15:17:14 [info] 808#0: *23 client closed connection while waiting for request, client: 37.111.10.48, server: 0.0.0.0:80
+2017/03/27 15:34:20 [info] 808#0: *27 client 59.111.29.6 closed keepalive connection
+2017/03/27 15:34:21 [info] 808#0: *29 client sent invalid method while reading client request line, client: 59.111.29.6, server: localhost, request: "       "
+2017/03/27 15:34:21 [info] 808#0: *29 recv() failed (104: Connection reset by peer) while reading client request line, client: 59.111.29.6, server: localhost, request: "       "
+2017/03/27 15:34:22 [info] 808#0: *30 client sent invalid method while reading client request line, client: 222.75.41.76, server: localhost, request: " "
+2017/03/27 15:34:22 [info] 808#0: *30 recv() failed (104: Connection reset by peer) while reading client request line, client: 222.75.41.76, server: localhost, request: " "
+2017/03/27 15:34:22 [info] 808#0: *31 client sent invalid method while reading client request line, client: 59.111.29.6, server: localhost, request: " "
+2017/03/27 15:34:24 [info] 808#0: *31 recv() failed (104: Connection reset by peer) while reading client request line, client: 59.111.29.6, server: localhost, request: " "
+2017/03/27 15:36:27 [info] 808#0: *32 client 37.111.10.48 closed keepalive connection (104: Connection reset by peer)
+2017/03/27 15:40:25 [info] 808#0: *39 client timed out (110: Connection timed out) while waiting for request, client: 37.111.10.48, server: 0.0.0.0:80
+2017/03/27 16:31:07 [info] 808#0: *48 client 89.163.132.6 closed keepalive connection
+2017/03/27 16:31:07 [info] 808#0: *50 client 89.163.132.6 closed keepalive connection
+2017/03/27 16:31:08 [info] 808#0: *52 client 89.163.132.6 closed keepalive connection
+2017/03/27 16:31:09 [info] 808#0: *54 client 89.163.132.6 closed keepalive connection
+2017/03/27 16:31:09 [info] 808#0: *56 client 89.163.132.6 closed keepalive connection
+2017/03/27 16:31:10 [info] 808#0: *58 client 89.163.132.6 closed keepalive connection
+2017/03/27 16:31:11 [info] 808#0: *60 client 89.163.132.6 closed keepalive connection
+2017/03/27 16:31:11 [info] 808#0: *62 client 89.163.132.6 closed keepalive connection
+2017/03/27 16:31:12 [info] 808#0: *64 client 89.163.132.6 closed keepalive connection
+2017/03/27 17:00:40 [info] 808#0: *66 recv() failed (104: Connection reset by peer) while sending to client, client: 60.227.230.123, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/27 19:00:23 [info] 808#0: *68 client closed connection while waiting for request, client: 223.255.145.158, server: 0.0.0.0:80
+2017/03/27 19:00:23 [info] 808#0: *69 client 223.255.145.158 closed keepalive connection
+2017/03/27 21:06:28 [info] 808#0: *71 recv() failed (104: Connection reset by peer) while sending to client, client: 213.169.74.28, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/", host: "103.253.146.26"
+2017/03/27 23:40:18 [info] 808#0: *75 client closed connection while waiting for request, client: 223.255.145.158, server: 0.0.0.0:80
+2017/03/27 23:40:18 [info] 808#0: *76 client 223.255.145.158 closed keepalive connection
+2017/03/28 02:27:45 [info] 808#0: *78 client 185.25.148.240 closed keepalive connection
+2017/03/28 04:06:54 [info] 808#0: *98 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 04:06:54 [info] 808#0: *97 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 04:06:54 [info] 808#0: *99 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 04:06:54 [info] 808#0: *100 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 04:07:59 [info] 808#0: *108 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 04:07:59 [info] 808#0: *106 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 04:07:59 [info] 808#0: *107 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 04:10:20 [info] 808#0: *114 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 04:10:20 [info] 808#0: *115 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 04:10:20 [info] 808#0: *116 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 04:10:20 [info] 808#0: *117 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 04:31:00 [info] 14877#0: *2 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 04:31:00 [info] 14877#0: *3 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 04:31:00 [info] 14877#0: *5 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 04:31:00 [info] 14877#0: *4 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 05:18:10 [info] 14877#0: *29 client 187.217.113.225 closed keepalive connection
+2017/03/28 05:18:11 [info] 14877#0: *31 client 187.217.113.225 closed keepalive connection
+2017/03/28 07:31:37 [info] 14877#0: *76 recv() failed (104: Connection reset by peer) while sending to client, client: 187.188.104.25, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/28 07:32:07 [info] 14877#0: *69 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 07:32:07 [info] 14877#0: *73 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 07:32:07 [info] 14877#0: *72 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 07:32:07 [info] 14877#0: *70 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 07:32:07 [info] 14877#0: *71 client closed connection while waiting for request, client: 103.42.216.2, server: 0.0.0.0:80
+2017/03/28 09:56:19 [info] 14877#0: *91 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 09:56:20 [info] 14877#0: *92 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 09:56:28 [info] 14877#0: *97 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 09:56:28 [info] 14877#0: *96 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 09:56:29 [info] 14877#0: *98 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 09:57:11 [info] 14877#0: *99 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 09:57:26 [info] 14877#0: *101 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 09:57:27 [info] 14877#0: *100 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 09:57:31 [info] 14877#0: *102 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 09:58:09 [info] 14877#0: *105 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 09:58:09 [info] 14877#0: *104 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 09:58:25 [info] 14877#0: *108 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 10:00:07 [info] 14877#0: *110 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 10:00:28 [info] 14877#0: *114 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 10:00:52 [info] 14877#0: *118 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 10:01:01 [info] 14877#0: *120 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 10:01:33 [info] 14877#0: *121 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 10:15:34 [info] 14877#0: *122 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 10:15:35 [info] 14877#0: *123 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 10:15:36 [info] 14877#0: *124 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 10:17:15 [info] 14877#0: *127 client closed connection while waiting for request, client: 203.81.70.202, server: 0.0.0.0:80
+2017/03/28 10:58:17 [info] 14877#0: *130 client closed connection while waiting for request, client: 220.134.152.164, server: 0.0.0.0:80
+2017/03/28 11:10:13 [info] 14877#0: *134 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/03/28 11:10:13 [info] 14877#0: *133 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/03/28 11:10:32 [info] 14877#0: *137 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/03/28 11:10:49 [info] 14877#0: *138 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/03/28 11:11:04 [info] 14877#0: *139 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/03/28 11:11:10 [info] 14877#0: *140 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/03/28 13:20:44 [info] 14877#0: *141 client 91.196.50.33 closed keepalive connection
+2017/03/28 15:34:20 [info] 14877#0: *147 client 106.2.125.215 closed keepalive connection
+2017/03/28 15:34:42 [info] 14877#0: *149 client sent invalid method while reading client request line, client: 106.2.125.215, server: localhost, request: " "
+2017/03/28 18:57:03 [info] 14877#0: *152 client 180.97.215.10 closed keepalive connection (104: Connection reset by peer)
+2017/03/28 19:00:03 [info] 14877#0: *154 client closed connection while waiting for request, client: 103.68.223.210, server: 0.0.0.0:80
+2017/03/28 19:00:12 [info] 14877#0: *155 client closed connection while waiting for request, client: 103.68.223.210, server: 0.0.0.0:80
+2017/03/28 20:18:00 [info] 14877#0: *160 client 121.196.225.253 closed keepalive connection
+2017/03/28 20:18:00 [info] 14877#0: *162 client 121.196.225.253 closed keepalive connection
+2017/03/28 20:18:01 [info] 14877#0: *164 client 121.196.225.253 closed keepalive connection
+2017/03/28 20:18:03 [info] 14877#0: *166 client 121.196.225.253 closed keepalive connection
+2017/03/28 20:18:04 [info] 14877#0: *168 client 121.196.225.253 closed keepalive connection
+2017/03/28 20:18:05 [info] 14877#0: *170 client 121.196.225.253 closed keepalive connection
+2017/03/28 20:18:06 [info] 14877#0: *172 client 121.196.225.253 closed keepalive connection
+2017/03/28 20:18:07 [info] 14877#0: *174 client 121.196.225.253 closed keepalive connection
+2017/03/28 20:18:07 [info] 14877#0: *176 client 121.196.225.253 closed keepalive connection
+2017/03/28 23:57:35 [info] 14877#0: *186 client 163.172.99.46 closed keepalive connection
+2017/03/29 01:32:44 [info] 14877#0: *188 recv() failed (104: Connection reset by peer) while sending to client, client: 122.3.9.172, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/29 02:04:06 [info] 14877#0: *194 client 190.151.86.195 closed keepalive connection
+2017/03/29 02:04:07 [info] 14877#0: *196 client 190.151.86.195 closed keepalive connection
+2017/03/29 02:04:08 [info] 14877#0: *198 client 190.151.86.195 closed keepalive connection
+2017/03/29 02:04:08 [info] 14877#0: *200 client 190.151.86.195 closed keepalive connection
+2017/03/29 02:04:09 [info] 14877#0: *202 client 190.151.86.195 closed keepalive connection
+2017/03/29 02:04:10 [info] 14877#0: *204 client 190.151.86.195 closed keepalive connection
+2017/03/29 02:04:11 [info] 14877#0: *206 client 190.151.86.195 closed keepalive connection
+2017/03/29 02:04:12 [info] 14877#0: *208 client 190.151.86.195 closed keepalive connection
+2017/03/29 02:04:12 [info] 14877#0: *210 client 190.151.86.195 closed keepalive connection
+2017/03/29 02:39:24 [info] 14877#0: *212 client closed connection while waiting for request, client: 121.6.216.25, server: 0.0.0.0:80
+2017/03/29 03:18:14 [info] 14877#0: *219 client 91.196.50.33 closed keepalive connection
+2017/03/29 04:02:20 [info] 14877#0: *221 recv() failed (104: Connection reset by peer) while sending to client, client: 124.13.169.153, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/29 04:10:36 [info] 14877#0: *227 client closed connection while waiting for request, client: 103.42.216.121, server: 0.0.0.0:80
+2017/03/29 04:10:36 [info] 14877#0: *226 client closed connection while waiting for request, client: 103.42.216.121, server: 0.0.0.0:80
+2017/03/29 04:47:06 [info] 14877#0: *230 recv() failed (104: Connection reset by peer) while sending to client, client: 58.152.84.152, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/29 05:06:44 [info] 14877#0: *232 client 117.6.225.10 closed keepalive connection
+2017/03/29 07:08:18 [info] 14877#0: *236 client sent invalid method while reading client request line, client: 51.6.146.196, server: localhost, request: " P[y9D "
+2017/03/29 07:08:42 [info] 14877#0: *237 client sent invalid method while reading client request line, client: 51.6.146.196, server: localhost, request: " "
+2017/03/29 09:27:46 [info] 14877#0: *238 recv() failed (104: Connection reset by peer) while sending to client, client: 148.240.116.247, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/29 09:41:25 [info] 14877#0: *240 recv() failed (104: Connection reset by peer) while sending to client, client: 171.249.104.169, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/29 09:45:28 [info] 14877#0: *242 recv() failed (104: Connection reset by peer) while waiting for request, client: 45.33.127.200, server: 0.0.0.0:80
+2017/03/29 09:45:29 [info] 14877#0: *243 recv() failed (104: Connection reset by peer) while sending to client, client: 45.33.127.200, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/03/29 11:23:57 [info] 14877#0: *248 client closed connection while waiting for request, client: 103.42.216.112, server: 0.0.0.0:80
+2017/03/29 11:23:57 [info] 14877#0: *249 client closed connection while waiting for request, client: 103.42.216.112, server: 0.0.0.0:80
+2017/03/29 11:23:57 [info] 14877#0: *250 client closed connection while waiting for request, client: 103.42.216.112, server: 0.0.0.0:80
+2017/03/29 11:32:34 [info] 14874#0: *277 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.112, server: 0.0.0.0:80
+2017/03/29 11:32:34 [info] 14874#0: *280 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.112, server: 0.0.0.0:80
+2017/03/29 11:32:34 [info] 14874#0: *281 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.112, server: 0.0.0.0:80
+2017/03/29 11:32:34 [info] 14874#0: *282 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.112, server: 0.0.0.0:80
+2017/03/29 11:32:34 [info] 14874#0: *283 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.112, server: 0.0.0.0:80
+2017/03/29 11:50:51 [info] 29258#0: *22 client closed connection while waiting for request, client: 103.42.216.112, server: 0.0.0.0:80
+2017/03/29 11:50:51 [info] 29258#0: *23 client closed connection while waiting for request, client: 103.42.216.112, server: 0.0.0.0:80
+2017/03/29 11:50:51 [info] 29258#0: *25 client closed connection while waiting for request, client: 103.42.216.112, server: 0.0.0.0:80
+2017/03/29 11:50:51 [info] 29258#0: *24 client closed connection while waiting for request, client: 103.42.216.112, server: 0.0.0.0:80
+2017/03/29 11:50:51 [info] 29258#0: *26 client closed connection while waiting for request, client: 103.42.216.112, server: 0.0.0.0:80
+2017/03/29 11:51:56 [info] 29258#0: *28 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.112, server: 0.0.0.0:80
+2017/03/29 11:51:56 [info] 29258#0: *29 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.112, server: 0.0.0.0:80
+2017/03/29 11:51:56 [info] 29258#0: *30 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.112, server: 0.0.0.0:80
+2017/03/29 11:51:56 [info] 29258#0: *31 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.112, server: 0.0.0.0:80

@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   # Orders
   get 'order_done', to: 'orders#done'
   get 'order_download', to: 'orders#order_download'
-
+  get 'update_detail', to: 'details#update_detail_get'
   # API
   namespace :api, defaults: {format: :json} do
     namespace :v1 do

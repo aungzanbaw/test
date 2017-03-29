@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 20170105114422) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "customers", force: :cascade do |t|
     t.string   "name"
     t.string   "phone"
@@ -34,9 +37,10 @@ ActiveRecord::Schema.define(version: 20170105114422) do
     t.integer  "order_id"
     t.string   "name"
     t.integer  "qty"
+    t.integer  "price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["order_id"], name: "index_details_on_order_id"
+    t.index ["order_id"], name: "index_details_on_order_id", using: :btree
   end
 
   create_table "orders", force: :cascade do |t|
@@ -49,8 +53,8 @@ ActiveRecord::Schema.define(version: 20170105114422) do
     t.integer  "department_id"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
-    t.index ["customer_id"], name: "index_orders_on_customer_id"
-    t.index ["department_id"], name: "index_orders_on_department_id"
+    t.index ["customer_id"], name: "index_orders_on_customer_id", using: :btree
+    t.index ["department_id"], name: "index_orders_on_department_id", using: :btree
   end
 
   create_table "products", force: :cascade do |t|
@@ -61,7 +65,7 @@ ActiveRecord::Schema.define(version: 20170105114422) do
     t.integer  "department_id"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
-    t.index ["department_id"], name: "index_products_on_department_id"
+    t.index ["department_id"], name: "index_products_on_department_id", using: :btree
   end
 
   create_table "staffs", force: :cascade do |t|
@@ -70,7 +74,12 @@ ActiveRecord::Schema.define(version: 20170105114422) do
     t.integer  "department_id"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
-    t.index ["department_id"], name: "index_staffs_on_department_id"
+    t.index ["department_id"], name: "index_staffs_on_department_id", using: :btree
   end
 
+  add_foreign_key "details", "orders"
+  add_foreign_key "orders", "customers"
+  add_foreign_key "orders", "departments"
+  add_foreign_key "products", "departments"
+  add_foreign_key "staffs", "departments"
 end

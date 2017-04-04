@@ -19,7 +19,7 @@ module Api
       end
 
       def orders
-        orders = Order.where(customer_id: @customer).order('created_at DESC').limit(10)
+        orders = Order.where(customer_id: @customer).order('created_at DESC').limit(20)
         render status: 200, json: orders.as_json(include: [:details])
       end
 
@@ -29,13 +29,15 @@ module Api
         @order.status = true
         if @order.save
           params.require(:details).each do |d|
-            d_permitted = d.permit(:name, :qty, :price)
-            @detail = Detail.new
-            @detail.order_id = @order.id
-            @detail.name = d_permitted[:name]
-            @detail.qty = d_permitted[:qty]
-	    @detail.price = d_permitted[:price]
-            @detail.save
+            d_permitted = d.permit(:name, :qty, :price, :remark)
+	    unless d_permitted[:name] == "" && d_permitted[:qty] == "" && d_permitted[:price]
+            	@detail = Detail.new
+            	@detail.order_id = @order.id
+            	@detail.name = d_permitted[:name]
+            	@detail.qty = d_permitted[:qty]
+	    	@detail.price = d_permitted[:price]
+            	@detail.save
+	    end
           end
           render status: 200, json: {status: 'ok'}
         else
@@ -64,7 +66,7 @@ module Api
         end
 
         def detail_params
-          params.require(:details).permit(:name, :qty)
+          params.require(:details).permit(:name, :qty, :price)
         end
     end
   end

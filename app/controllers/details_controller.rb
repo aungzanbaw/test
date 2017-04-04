@@ -1,11 +1,13 @@
 class DetailsController < ApplicationController
   before_action :authenticate
   before_action :set_detail, only: [:show, :edit, :update, :destroy]
+
   def update_detail_get
     detail = Detail.find_by(id: params[:detail_id])
     detail.name = params[:name]
     detail.price = params[:price]
     detail.qty = params[:qty]
+    detail.remark = params[:remark]
 
     respond_to do |format|
       if detail.save
@@ -83,7 +85,7 @@ class DetailsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def detail_params
-      params.require(:detail).permit(:order_id, :name, :qty)
-      # params.require(:detail).permit(:order_id, :name, :qty, :price, :remark)
+      # params.require(:detail).permit(:order_id, :name, :qty)
+      params.require(:detail).permit(:order_id, :name, :qty, :price, :remark)
     end
 end

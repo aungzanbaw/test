@@ -22,7 +22,7 @@
 
         <%= form_tag('validate', method: :post) do  %>
           <div class="field form-group">
-            <%= label_tag :username %><br>
+            <%= label_tag :username, "User Name" %><br>
             <%= text_field_tag(:username,nil, class: "form-control", autofocus: 'autofocus') %>
           </div>
           <div class="field form-group">

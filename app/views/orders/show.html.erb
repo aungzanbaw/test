@@ -1,3 +1,8 @@
+<style media="print">
+	table, thead, tbody{
+		background-color:red;
+	} 
+</style>
 <%= form_for(@order) do |f| %>
 <table class="table table-bordered table-condensed">
   <tbody>
@@ -5,40 +10,42 @@
       <td><strong>Customer:</strong></td>
       <td><%= @order.customer.name %></td>
       <td><strong>Order Num:</strong></td>
-      <td><%= "V000#{@order.id}"%></td>
+      <td><%= "V000#{@order.id}"%> <%= " - "+session[:staff_username] unless session[:staff] == 1%></td>
     </tr>
     <tr>
-      <td><strong>Delivery:</strong></td>
+      <td><strong>Address:</strong></td>
       <td><%= @order.delivery %></td>
       <td><strong>Gate:</strong></td>
       <td><%= @order.gate %></td>
     </tr>
 
     <tr>
-      <% if session[:staff] != 1 && @order.status == true %>
+      <% if @order.department == Staff.find(session[:staff]).department && @order.status == true %>
         <td><strong>Payment:</strong></td>
         <td>
+	<%= @order.payment %>
           <select name="order[payment]">
-            <option value="1">Cash</option>
-            <option value="2">Credit</option>
+            <option value="Cash">Cash</option>
+            <option value="Credit" <%= "selected" if @order.payment == "credit" %>>Credit</option>
           </select>
         </td>
       <% else %>
         <td><strong>Payment:</strong></td>
         <td>
-          <% if @order.payment == 1 %>
-            <%= "Cash" %>
-          <% else %>
-            <%= "Credit" %>
-          <% end %>
+          <%= @order.payment %>
         </td>
       <% end %>
       <td><strong>Date/Time</strong></td>
-      <td><%= @order.created_at %></td>
+      <td><%= @order.created_at.in_time_zone("Rangoon") %></td>
     </tr>
     <tr>
-      <td><strong>Remark:</strong></td>
-      <td colspan="3"><%= @order.remark %></td>
+    <% if @order.department == Staff.find(session[:staff]).department && @order.status == true %>
+		<td><strong>Remark:</strong></td>
+		<td colspan="3"><input type="text" name="order[remark]" value="<%= @order.remark %>" class="form-control"></td>
+	<% else %>
+		<td><strong>Remark:</strong></td>
+		<td colspan="3"><%= @order.remark %></td>
+	<% end %>
     </tr>
   </tbody>
 </table>
@@ -47,30 +54,33 @@
 <table class="table table-bordered">
   <thead>
     <tr>
-      <td>Product</td>
-      <td>Qty</td>
-      <td>Price</td>
-      <td>Config</td>
+      <td><b>Item</b></td>
+      <td><b>Qty</b></td>
+      <td><b>Price</b></td>
+      <td><b>Remark</b></td>
+	<% if @order.department == Staff.find(session[:staff]).department && @order.status == true %>
+	 <td><b>Config</b></td>
+	<% end %>
     </tr>
   </thead>
   <tbody>
     <% detail_count = @order.details.count %>
     <% @details.each do |d| %>
       <tr>
-        <% if session[:staff] != 1 && @order.status == true %>
-            <td><input type="text" min required id="name<%=d.id%>" name="name<%=d.id%>" value="<%= d.name %>"></td>
-            <td><input type="text" required id="qty<%=d.id%>" name="qty<%=d.id%>" value="<%= d.qty %>"></td>
-            <td><input type="text" required id="price<%=d.id%>" name="price<%=d.id%>" value="<%= d.price %>"></td>
-            <td>
-              <%= link_to "Destroy", detail_path(d,order: @order), method: :delete, data: { confirm: 'Are you sure?' } %>
+        <% if @order.department == Staff.find(session[:staff]).department && @order.status == true %>
+            <td><input type="text" min required id="name<%=d.id%>" name="name<%=d.id%>" value="<%= d.name %>" class="form-control"></td>
+            <td><input type="number" required id="qty<%=d.id%>" name="qty<%=d.id%>" value="<%= d.qty %>"></td>
+            <td><input type="number" id="price<%=d.id%>" name="price<%=d.id%>" value="<%= d.price %>"></td>
+	    <td><input type="text" id="remark<%=d.id%>" name="remark<%=d.id%>" value="<%= d.remark %>" class="form-control"></td>
+	    <td>
+              <%= link_to "Delete", detail_path(d,order: @order), method: :delete, data: { confirm: 'Are you sure?' } %>
               <%= link_to "Update", "", class: d.id %>
-              <% # link_to "Update", update_detail_path(detail: d, order: @order) %>
             </td>
         <% else %>
             <td><%= d.name %></td>
             <td><%= d.qty %></td>
             <td><%= d.price %></td>
-            <td></td>
+	    <td><%=  d.remark %></td>
         <% end %>
       </tr>
     <% end %>
@@ -87,7 +97,7 @@
 <br>
 <%= link_to 'Print', "#", class: 'btn btn-warning', onclick: 'window.print()' %>
 <hr>
-<%= link_to 'Back', orders_path %>
+	<%= link_to 'Back', orders_path %>
 <script type="text/javascript">
   $(document).ready(function () {
     let datas = JSON.parse('<%= raw(@details.to_json) %>')
@@ -102,20 +112,21 @@
           alert("Quantity is empty")
         }
 
-        if(!$(`#price${data.id}`).val()){
+/*        if(!$(`#price${data.id}`).val()){
           alert("Price is empty")
         }
-
+*/
         var d = $.param({
           name: $(`#name${data.id}`).val(),
           price: $(`#price${data.id}`).val(),
           qty: $(`#qty${data.id}`).val(),
+	  remark: $(`#remark${data.id}`).val(),
           order_id: <%= @order.id%>,
           detail_id: data.id
         })
+console.log(d)
         $('.'+data.id).attr("href",'http://103.253.146.26/update_detail?' + d)
       })
     }
   })
 </script>
-

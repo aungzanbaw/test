@@ -6,7 +6,7 @@ class CreateDetails < ActiveRecord::Migration[5.0]
       t.string :name
       t.integer :qty
       t.integer :price
-      # t.string :remark
+      t.string :remark
       t.timestamps
     end
   end

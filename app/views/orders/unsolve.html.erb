@@ -7,21 +7,19 @@
   </div>
 <% end %>
 
-<h1>Orders</h1>
+<h1>Pending Orders</h1>
 
 <table class="dt table table-striped table-bordered">
   <thead>
     <tr>
-      <th>Vocher</th>
+      <th>Voucher</th>
       <th>Customer</th>
-      <th>Delivery</th>
+      <th>Address</th>
       <th>Gate</th>
-      <th>Remark</th>
       <th>Payment</th> 
       <th>Department</th>
-      <th>Date</th>
-      <th>Time</th>
-      <% unless session[:staff] == 1 %><th></th><% end %>
+      <th>Date/Time</th>
+      <% if session[:staff] == 1 %><th>ADMIN</th><% end %>
     </tr>
   </thead>
 
@@ -40,16 +38,14 @@
           </td>
           <td><%= order.delivery %></td>
           <td><%= order.gate %></td>
-          <td><%= order.remark %></td>
           <td><%= order.payment %></td>
           <td><%= order.department.name %></td>
-          <td><%= order.created_at.to_date %></td>
-          <td><%= order.created_at.strftime("%H:%M:%S") %></td>
-          <% unless session[:staff] == 1 %>
-          <td>
-            <%= link_to 'Done', order, data: { confirm: 'Are you sure?' } %></td>
-          </td>
-          <% end %>
+          <td><%= order.created_at.in_time_zone("Rangoon") %></td>
+	  <% if session[:staff] == 1 %>
+         <td>
+           <%= link_to 'Destroy', order, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+         </td>
+	<% end %>
         </tr>
       <% end %>
     <% else %>

@@ -49,7 +49,7 @@
         <td><%= order.created_at.in_time_zone("Rangoon") %></td>
         <% if session[:staff] == 1 %>
           <td>
-            <%= link_to 'Destroy', order, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+		<%= link_to 'Destroy', order, method: :delete, data: { confirm: 'Are you sure?' } %></td>
           </td>
         <% end %>
       </tr>

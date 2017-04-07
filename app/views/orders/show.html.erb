@@ -23,7 +23,6 @@
       <% if @order.department == Staff.find(session[:staff]).department && @order.status == true %>
         <td><strong>Payment:</strong></td>
         <td>
-	<%= @order.payment %>
           <select name="order[payment]">
             <option value="Cash">Cash</option>
             <option value="Credit" <%= "selected" if @order.payment == "credit" %>>Credit</option>
@@ -90,7 +89,7 @@
 <% if @order.department == Staff.find(session[:staff]).department && @order.status == true %>
     <div class="actions">
       <%= f.hidden_field :status, value: false %>
-      <%= f.submit "Fulfill order", class: 'btn btn-primary',data: { confirm: 'Are you sure?' } %>
+      <%= f.submit "Complete", class: 'btn btn-primary',data: { confirm: 'Are you sure?' } %>
     </div>
   <% end %>
 <% end %>

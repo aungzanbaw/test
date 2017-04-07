@@ -1862,3 +1862,250 @@
 2017/04/04 12:44:48 [info] 6121#0: *9 client closed connection while waiting for request, client: 103.42.216.81, server: 0.0.0.0:80
 2017/04/04 12:46:48 [info] 1613#0: *3 client closed connection while waiting for request, client: 103.42.216.81, server: 0.0.0.0:80
 2017/04/04 12:46:48 [info] 1613#0: *4 client closed connection while waiting for request, client: 103.42.216.81, server: 0.0.0.0:80
+2017/04/04 12:48:04 [info] 1613#0: *11 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.81, server: 0.0.0.0:80
+2017/04/04 15:46:39 [info] 1613#0: *15 client sent invalid method while reading client request line, client: 89.248.172.90, server: localhost, request: " "
+2017/04/04 15:46:40 [info] 1613#0: *16 client 89.248.172.90 closed keepalive connection
+2017/04/04 15:46:41 [info] 1613#0: *18 client sent invalid method while reading client request line, client: 89.248.172.90, server: localhost, request: " PÀcö60 "
+2017/04/04 15:46:41 [info] 1613#0: *19 client sent invalid method while reading client request line, client: 89.248.172.90, server: localhost, request: " PÀcö60 "
+2017/04/04 15:46:42 [info] 1613#0: *20 client sent invalid method while reading client request line, client: 89.248.172.90, server: localhost, request: " "
+2017/04/04 15:51:02 [info] 1613#0: *21 client 106.2.125.215 closed keepalive connection
+2017/04/04 15:51:02 [info] 1613#0: *23 client sent invalid method while reading client request line, client: 106.2.125.215, server: localhost, request: "       "
+2017/04/04 15:51:03 [info] 1613#0: *23 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.2.125.215, server: localhost, request: "       "
+2017/04/04 15:51:04 [info] 1613#0: *24 client sent invalid method while reading client request line, client: 60.13.136.79, server: localhost, request: " "
+2017/04/04 15:51:04 [info] 1613#0: *24 recv() failed (104: Connection reset by peer) while reading client request line, client: 60.13.136.79, server: localhost, request: " "
+2017/04/04 15:51:05 [info] 1613#0: *25 client sent invalid method while reading client request line, client: 106.2.125.215, server: localhost, request: " "
+2017/04/04 15:51:06 [info] 1613#0: *25 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.2.125.215, server: localhost, request: " "
+2017/04/04 15:53:54 [info] 1613#0: *26 client 186.225.191.227 closed keepalive connection
+2017/04/05 00:28:02 [info] 1613#0: *32 client 91.196.50.33 closed keepalive connection
+2017/04/05 02:12:36 [info] 1613#0: *34 client 5.104.105.102 closed keepalive connection
+2017/04/05 02:47:28 [info] 1613#0: *36 client 5.104.105.102 closed keepalive connection
+2017/04/05 03:27:25 [info] 1613#0: *45 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 03:27:25 [info] 1613#0: *44 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 03:27:25 [info] 1613#0: *42 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 03:55:51 [info] 1613#0: *58 client closed connection while waiting for request, client: 103.215.192.6, server: 0.0.0.0:80
+2017/04/05 03:56:17 [info] 1613#0: *64 client 103.215.192.6 closed keepalive connection
+2017/04/05 03:56:35 [info] 1613#0: *71 client closed connection while waiting for request, client: 103.215.192.6, server: 0.0.0.0:80
+2017/04/05 03:56:35 [info] 1613#0: *70 client closed connection while waiting for request, client: 103.215.192.6, server: 0.0.0.0:80
+2017/04/05 03:56:35 [info] 1613#0: *72 client closed connection while waiting for request, client: 103.215.192.6, server: 0.0.0.0:80
+2017/04/05 03:56:39 [info] 1613#0: *69 client 103.215.192.6 closed keepalive connection
+2017/04/05 04:03:28 [info] 1613#0: *77 client timed out (110: Connection timed out) while waiting for request, client: 103.215.192.3, server: 0.0.0.0:80
+2017/04/05 04:03:28 [info] 1613#0: *78 client timed out (110: Connection timed out) while waiting for request, client: 103.215.192.3, server: 0.0.0.0:80
+2017/04/05 04:09:54 [info] 1613#0: *85 client closed connection while waiting for request, client: 103.215.192.3, server: 0.0.0.0:80
+2017/04/05 04:10:05 [info] 1613#0: *87 client closed connection while waiting for request, client: 103.215.192.3, server: 0.0.0.0:80
+2017/04/05 04:11:15 [info] 1613#0: *96 client closed connection while waiting for request, client: 103.215.192.3, server: 0.0.0.0:80
+2017/04/05 04:11:30 [info] 1613#0: *98 client closed connection while waiting for request, client: 103.215.192.3, server: 0.0.0.0:80
+2017/04/05 04:11:30 [info] 1613#0: *99 client closed connection while waiting for request, client: 103.215.192.3, server: 0.0.0.0:80
+2017/04/05 04:11:30 [info] 1613#0: *100 client closed connection while waiting for request, client: 103.215.192.3, server: 0.0.0.0:80
+2017/04/05 04:11:30 [info] 1613#0: *102 client closed connection while waiting for request, client: 103.215.192.3, server: 0.0.0.0:80
+2017/04/05 04:11:30 [info] 1613#0: *101 client closed connection while waiting for request, client: 103.215.192.3, server: 0.0.0.0:80
+2017/04/05 04:11:45 [info] 1613#0: *104 client closed connection while waiting for request, client: 103.215.192.3, server: 0.0.0.0:80
+2017/04/05 04:13:01 [info] 1613#0: *110 client timed out (110: Connection timed out) while waiting for request, client: 103.215.192.3, server: 0.0.0.0:80
+2017/04/05 04:13:01 [info] 1613#0: *111 client timed out (110: Connection timed out) while waiting for request, client: 103.215.192.3, server: 0.0.0.0:80
+2017/04/05 04:13:01 [info] 1613#0: *112 client timed out (110: Connection timed out) while waiting for request, client: 103.215.192.3, server: 0.0.0.0:80
+2017/04/05 04:25:31 [info] 1613#0: *118 client closed connection while waiting for request, client: 103.215.194.2, server: 0.0.0.0:80
+2017/04/05 04:25:31 [info] 1613#0: *119 client closed connection while waiting for request, client: 103.215.194.2, server: 0.0.0.0:80
+2017/04/05 04:25:31 [info] 1613#0: *120 client closed connection while waiting for request, client: 103.215.194.2, server: 0.0.0.0:80
+2017/04/05 04:25:36 [info] 1613#0: *122 client 103.215.194.2 closed keepalive connection
+2017/04/05 04:25:49 [info] 1613#0: *116 client timed out (110: Connection timed out) while waiting for request, client: 103.215.192.3, server: 0.0.0.0:80
+2017/04/05 04:47:04 [info] 1613#0: *135 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 04:47:04 [info] 1613#0: *136 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 04:47:04 [info] 1613#0: *137 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 07:00:10 [info] 1613#0: *164 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 07:00:10 [info] 1613#0: *166 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 07:00:10 [info] 1613#0: *165 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 07:00:10 [info] 1613#0: *168 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 07:00:14 [info] 1613#0: *163 client 203.81.70.201 closed keepalive connection
+2017/04/05 08:59:01 [info] 1613#0: *193 client 103.215.192.0 closed keepalive connection
+2017/04/05 08:59:47 [info] 1613#0: *195 sendfile() failed (104: Connection reset by peer) while sending response to client, client: 103.215.192.0, server: localhost, request: "GET /assets/application-cb031875b7fb8fd8d16a012e01a99bfe56ad396f1e6dca6ec12305be0b6eaa18.js HTTP/1.1", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/6"
+2017/04/05 09:00:49 [info] 1613#0: *197 client timed out (110: Connection timed out) while waiting for request, client: 103.215.192.0, server: 0.0.0.0:80
+2017/04/05 09:20:22 [info] 1613#0: *198 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 09:20:22 [info] 1613#0: *201 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 09:20:22 [info] 1613#0: *200 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 09:20:24 [info] 1613#0: *203 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 09:20:36 [info] 1613#0: *206 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 09:20:51 [info] 1613#0: *209 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 09:20:51 [info] 1613#0: *210 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 09:21:52 [info] 1613#0: *214 client 203.81.70.201 closed keepalive connection
+2017/04/05 09:25:48 [info] 1613#0: *218 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 09:25:48 [info] 1613#0: *217 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 09:27:11 [info] 1613#0: *226 client timed out (110: Connection timed out) while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 09:27:11 [info] 1613#0: *227 client timed out (110: Connection timed out) while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 09:27:11 [info] 1613#0: *228 client timed out (110: Connection timed out) while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 09:33:24 [info] 1613#0: *248 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 09:33:50 [info] 1613#0: *253 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 09:33:50 [info] 1613#0: *254 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 09:35:09 [info] 1613#0: *259 client timed out (110: Connection timed out) while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 10:10:16 [info] 1613#0: *267 client 103.215.192.0 closed keepalive connection
+2017/04/05 10:10:58 [info] 1613#0: *277 client 74.50.213.197 closed keepalive connection
+2017/04/05 10:17:33 [info] 1613#0: *290 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 10:17:33 [info] 1613#0: *289 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 10:17:33 [info] 1613#0: *287 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 10:17:33 [info] 1613#0: *288 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 10:17:33 [info] 1613#0: *291 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 10:17:46 [info] 1613#0: *294 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 10:17:46 [info] 1613#0: *295 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 10:17:46 [info] 1613#0: *296 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 10:19:42 [info] 1613#0: *307 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 10:19:54 [info] 1613#0: *312 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 10:21:15 [info] 1613#0: *326 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 10:21:36 [info] 1613#0: *318 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 10:21:36 [info] 1613#0: *319 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 10:21:36 [info] 1613#0: *320 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 10:21:36 [info] 1613#0: *321 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 10:21:36 [info] 1613#0: *322 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 10:22:17 [info] 1613#0: *329 client timed out (110: Connection timed out) while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:15:36 [info] 1613#0: *342 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:18:11 [info] 1613#0: *354 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:18:27 [info] 1613#0: *356 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:18:27 [info] 1613#0: *357 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:18:27 [info] 1613#0: *358 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:18:27 [info] 1613#0: *360 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:18:48 [info] 1613#0: *364 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:19:16 [info] 1613#0: *368 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:20:11 [info] 1613#0: *373 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:20:18 [info] 1613#0: *374 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:20:18 [info] 1613#0: *375 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:20:34 [info] 1613#0: *378 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:20:49 [info] 1613#0: *383 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:20:49 [info] 1613#0: *382 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:20:49 [info] 1613#0: *381 client 203.81.70.201 closed keepalive connection
+2017/04/05 11:20:49 [info] 1613#0: *384 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:23:27 [info] 1613#0: *387 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:23:27 [info] 1613#0: *388 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:23:27 [info] 1613#0: *391 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:23:27 [info] 1613#0: *389 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:23:54 [info] 1613#0: *396 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:24:08 [info] 1613#0: *399 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:24:54 [info] 1613#0: *402 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:25:55 [info] 1613#0: *405 client timed out (110: Connection timed out) while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/05 11:44:32 [info] 1613#0: *417 client closed connection while waiting for request, client: 103.215.194.3, server: 0.0.0.0:80
+2017/04/05 11:44:32 [info] 1613#0: *418 client closed connection while waiting for request, client: 103.215.194.3, server: 0.0.0.0:80
+2017/04/05 11:47:00 [info] 1613#0: *436 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:47:00 [info] 1613#0: *435 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:47:00 [info] 1613#0: *437 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:47:00 [info] 1613#0: *439 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:47:00 [info] 1613#0: *438 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:49:41 [info] 1613#0: *450 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:49:41 [info] 1613#0: *451 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:49:41 [info] 1613#0: *452 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:49:41 [info] 1613#0: *453 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:49:41 [info] 1613#0: *454 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:50:28 [info] 1613#0: *461 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:50:28 [info] 1613#0: *462 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:54:33 [info] 1613#0: *471 client closed connection while waiting for request, client: 103.215.194.3, server: 0.0.0.0:80
+2017/04/05 11:54:33 [info] 1613#0: *473 client closed connection while waiting for request, client: 103.215.194.3, server: 0.0.0.0:80
+2017/04/05 11:54:33 [info] 1613#0: *472 client closed connection while waiting for request, client: 103.215.194.3, server: 0.0.0.0:80
+2017/04/05 11:54:33 [info] 1613#0: *469 client 103.215.194.3 closed keepalive connection
+2017/04/05 11:55:25 [info] 1613#0: *481 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:55:25 [info] 1613#0: *482 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:55:25 [info] 1613#0: *483 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:56:25 [error] 1613#0: *489 connect() to unix:/home/deploy/da/shared/sockets/puma.sock failed (111: Connection refused) while connecting to upstream, client: 103.42.216.123, server: localhost, request: "GET /dashboard HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/dashboard", host: "103.253.146.26"
+2017/04/05 11:56:36 [info] 1613#0: *492 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:56:36 [info] 1613#0: *491 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:56:36 [info] 1613#0: *493 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:56:43 [info] 1613#0: *495 client 103.42.216.123 closed keepalive connection
+2017/04/05 11:56:59 [info] 1613#0: *497 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:56:59 [info] 1613#0: *498 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:57:10 [info] 1613#0: *506 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:57:10 [info] 1613#0: *509 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:57:10 [info] 1613#0: *507 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:57:10 [info] 1613#0: *510 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:57:10 [info] 1613#0: *508 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:58:05 [info] 1613#0: *515 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:58:05 [info] 1613#0: *519 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:58:05 [info] 1613#0: *517 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:58:05 [info] 1613#0: *518 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:58:05 [info] 1613#0: *516 client closed connection while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:59:15 [info] 1613#0: *525 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:59:15 [info] 1613#0: *526 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:59:15 [info] 1613#0: *527 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 11:59:15 [info] 1613#0: *528 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 12:01:18 [info] 1613#0: *531 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 12:01:18 [info] 1613#0: *532 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 12:01:18 [info] 1613#0: *533 client timed out (110: Connection timed out) while waiting for request, client: 103.42.216.123, server: 0.0.0.0:80
+2017/04/05 12:18:27 [info] 1613#0: *539 recv() failed (104: Connection reset by peer) while sending to client, client: 217.34.34.108, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/04/05 12:44:20 [info] 1613#0: *548 client closed connection while waiting for request, client: 103.215.194.3, server: 0.0.0.0:80
+2017/04/05 12:44:20 [info] 1613#0: *549 client closed connection while waiting for request, client: 103.215.194.3, server: 0.0.0.0:80
+2017/04/05 12:45:21 [info] 1613#0: *552 client timed out (110: Connection timed out) while waiting for request, client: 103.215.194.3, server: 0.0.0.0:80
+2017/04/05 12:56:23 [info] 1613#0: *555 client closed connection while waiting for request, client: 103.215.194.3, server: 0.0.0.0:80
+2017/04/05 12:56:23 [info] 1613#0: *556 client closed connection while waiting for request, client: 103.215.194.3, server: 0.0.0.0:80
+2017/04/05 12:56:27 [info] 1613#0: *560 client closed connection while waiting for request, client: 103.215.194.3, server: 0.0.0.0:80
+2017/04/05 12:56:27 [info] 1613#0: *561 client closed connection while waiting for request, client: 103.215.194.3, server: 0.0.0.0:80
+2017/04/05 12:56:27 [info] 1613#0: *554 client 103.215.194.3 closed keepalive connection
+2017/04/05 13:16:08 [info] 1613#0: *578 client 103.215.194.3 closed keepalive connection
+2017/04/05 13:21:05 [info] 1613#0: *580 client 91.196.50.33 closed keepalive connection
+2017/04/05 13:21:21 [info] 1613#0: *582 client 103.42.216.123 closed keepalive connection
+2017/04/05 15:47:22 [info] 1613#0: *592 client 106.2.125.215 closed keepalive connection
+2017/04/05 15:47:23 [info] 1613#0: *594 client sent invalid method while reading client request line, client: 106.2.125.215, server: localhost, request: "       "
+2017/04/05 15:47:23 [info] 1613#0: *594 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.2.125.215, server: localhost, request: "       "
+2017/04/05 15:47:23 [info] 1613#0: *595 client sent invalid method while reading client request line, client: 106.2.125.215, server: localhost, request: " "
+2017/04/05 15:47:24 [info] 1613#0: *595 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.2.125.215, server: localhost, request: " "
+2017/04/05 17:36:54 [info] 1613#0: *598 client 178.134.80.142 closed keepalive connection
+2017/04/05 18:38:43 [info] 1613#0: *608 client 180.97.106.161 closed keepalive connection
+2017/04/05 21:24:42 [info] 1613#0: *610 client closed connection while waiting for request, client: 191.184.129.8, server: 0.0.0.0:80
+2017/04/05 23:15:00 [info] 1613#0: *623 client 23.20.111.245 closed keepalive connection
+2017/04/05 23:15:00 [info] 1613#0: *621 client 23.20.111.245 closed keepalive connection
+2017/04/06 02:49:16 [info] 1613#0: *628 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/06 02:49:16 [info] 1613#0: *630 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/06 03:18:10 [info] 1613#0: *633 recv() failed (104: Connection reset by peer) while sending to client, client: 62.181.240.162, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/", host: "103.253.146.26"
+2017/04/06 03:19:08 [info] 1613#0: *635 client 185.25.148.240 closed keepalive connection
+2017/04/06 03:59:24 [info] 1613#0: *637 client sent invalid method while reading client request line, client: 180.97.106.37, server: localhost, request: " P´£qR "
+2017/04/06 04:41:53 [info] 1613#0: *640 client 203.81.70.201 closed keepalive connection
+2017/04/06 04:41:53 [info] 1613#0: *642 client closed connection while waiting for request, client: 203.81.70.201, server: 0.0.0.0:80
+2017/04/06 05:59:53 [info] 1613#0: *655 client closed connection while waiting for request, client: 103.42.216.1, server: 0.0.0.0:80
+2017/04/06 05:59:53 [info] 1613#0: *654 client closed connection while waiting for request, client: 103.42.216.1, server: 0.0.0.0:80
+2017/04/06 06:33:03 [info] 1613#0: *661 client sent invalid method while reading client request line, client: 180.97.106.161, server: localhost, request: " "
+2017/04/06 09:39:24 [info] 1613#0: *695 recv() failed (104: Connection reset by peer) while sending to client, client: 95.226.188.19, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/04/06 11:03:36 [info] 1613#0: *718 client 103.42.216.1 closed keepalive connection
+2017/04/06 15:22:03 [info] 1613#0: *810 client 91.196.50.33 closed keepalive connection
+2017/04/06 15:33:26 [info] 1613#0: *812 recv() failed (104: Connection reset by peer) while sending to client, client: 189.106.10.103, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/04/06 15:46:06 [info] 1613#0: *814 client 59.111.29.6 closed keepalive connection
+2017/04/06 15:46:06 [info] 1613#0: *816 client sent invalid method while reading client request line, client: 59.111.29.6, server: localhost, request: "       "
+2017/04/06 15:46:06 [info] 1613#0: *816 recv() failed (104: Connection reset by peer) while reading client request line, client: 59.111.29.6, server: localhost, request: "       "
+2017/04/06 15:46:07 [info] 1613#0: *817 client sent invalid method while reading client request line, client: 59.111.29.6, server: localhost, request: " "
+2017/04/06 15:46:07 [info] 1613#0: *817 recv() failed (104: Connection reset by peer) while reading client request line, client: 59.111.29.6, server: localhost, request: " "
+2017/04/06 20:44:11 [info] 1613#0: *818 recv() failed (104: Connection reset by peer) while waiting for request, client: 112.215.200.204, server: 0.0.0.0:80
+2017/04/06 20:44:15 [info] 1613#0: *819 recv() failed (104: Connection reset by peer) while waiting for request, client: 112.215.200.204, server: 0.0.0.0:80
+2017/04/06 20:44:20 [info] 1613#0: *820 recv() failed (104: Connection reset by peer) while waiting for request, client: 112.215.200.204, server: 0.0.0.0:80
+2017/04/07 02:15:32 [info] 1613#0: *833 client closed connection while waiting for request, client: 54.186.237.139, server: 0.0.0.0:80
+2017/04/07 03:23:02 [info] 1613#0: *834 client 185.25.148.240 closed keepalive connection
+2017/04/07 03:47:17 [info] 1613#0: *843 client closed connection while waiting for request, client: 103.215.193.1, server: 0.0.0.0:80
+2017/04/07 03:48:12 [info] 1613#0: *845 client timed out (110: Connection timed out) while waiting for request, client: 103.215.193.1, server: 0.0.0.0:80
+2017/04/07 04:37:45 [info] 1613#0: *868 client 103.215.193.1 closed keepalive connection
+2017/04/07 05:30:51 [info] 1613#0: *886 client 103.42.216.20 closed keepalive connection
+2017/04/07 05:32:35 [info] 1613#0: *890 client 103.42.216.20 closed keepalive connection
+2017/04/07 09:04:29 [info] 1613#0: *936 client 66.240.205.34 closed keepalive connection
+2017/04/07 09:04:30 [info] 1613#0: *938 client 66.240.205.34 closed keepalive connection
+2017/04/07 09:04:31 [info] 1613#0: *939 client 66.240.205.34 closed keepalive connection (104: Connection reset by peer)
+2017/04/07 09:09:00 [info] 1613#0: *945 client 103.42.216.20 closed keepalive connection
+2017/04/07 10:04:51 [info] 1613#0: *978 client sent invalid method while reading client request line, client: 106.2.125.215, server: localhost, request: "       "
+2017/04/07 10:04:52 [info] 1613#0: *978 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.2.125.215, server: localhost, request: "       "
+2017/04/07 10:04:52 [info] 1613#0: *979 client sent invalid method while reading client request line, client: 106.2.125.215, server: localhost, request: " "
+2017/04/07 10:04:52 [info] 1613#0: *979 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.2.125.215, server: localhost, request: " "
+2017/04/07 10:20:07 [info] 1613#0: *990 client closed connection while waiting for request, client: 103.215.193.1, server: 0.0.0.0:80
+2017/04/07 10:20:07 [info] 1613#0: *989 client closed connection while waiting for request, client: 103.215.193.1, server: 0.0.0.0:80
+2017/04/07 10:20:26 [info] 1613#0: *988 client 103.215.193.1 closed keepalive connection
+2017/04/07 10:24:53 [info] 1613#0: *1003 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 10:24:53 [info] 1613#0: *1004 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 10:24:53 [info] 1613#0: *1007 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 10:45:07 [info] 1613#0: *1020 recv() failed (104: Connection reset by peer) while sending to client, client: 187.233.163.247, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/04/07 11:18:13 [info] 1613#0: *1060 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 11:18:13 [info] 1613#0: *1061 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 11:33:27 [info] 1613#0: *1078 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 11:33:27 [info] 1613#0: *1079 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 11:33:27 [info] 1613#0: *1080 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 11:33:27 [info] 1613#0: *1081 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 11:33:27 [info] 1613#0: *1082 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 11:33:47 [info] 1613#0: *1087 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 11:33:47 [info] 1613#0: *1085 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 11:33:47 [info] 1613#0: *1089 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 11:33:47 [info] 1613#0: *1086 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 11:33:47 [info] 1613#0: *1090 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 11:51:29 [info] 1613#0: *1108 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 11:51:29 [info] 1613#0: *1107 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 11:51:29 [info] 1613#0: *1110 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 11:51:29 [info] 1613#0: *1112 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 11:51:29 [info] 1613#0: *1113 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80
+2017/04/07 11:52:21 [info] 1613#0: *1119 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.42.216.20, server: localhost, request: "GET /logout HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/logout", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/8"
+2017/04/07 11:52:23 [info] 1613#0: *1121 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.42.216.20, server: localhost, request: "GET /logout HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/logout", host: "103.253.146.26", referrer: "http://103.253.146.26/logout"
+2017/04/07 11:53:46 [info] 1613#0: *1129 client closed connection while waiting for request, client: 103.42.216.20, server: 0.0.0.0:80

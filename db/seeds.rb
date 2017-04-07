@@ -18,7 +18,7 @@ Department.delete_all
 @dep1 = Department.create!(name:"Handset", description:"a cellular phone that performs many of the functions of a computer")
 @dep2 = Department.create!(name:"Electronic", description:"carried out or accessed by means of a computer or other electronic device")
 @dep3 = Department.create!(name:"Handset Accessories", description:"this is a demo text, replace with something")
-@dep4 = Department.create!(name:"Fax", description:"this is a demo text, replace with something")
+@dep4 = Department.create!(name:"CCTV & PABX", description:"this is a demo text, replace with something")
 
 Staff.delete_all
 @staff0 = Staff.create!(username:"Thet Naing", password:"123123", department:@dep0)

@@ -41,12 +41,12 @@ Product.delete_all
 @p9 = Product.create!(name:"JJJ", brand:"JJJ", group:"jj group", price:456, department:@dep4)
 
 Order.delete_all
-@o = Order.create!(customer:@customer, delivery:"Car", gate:"Mandalar Min", remark:"write something" , payment:"cash", status: true, department:@dep)
-@o1 = Order.create!(customer:@customer1, delivery:"Plane", gate:"Mandalar Min", remark:"write something" , payment:"credit", status: true, department:@dep1)
-@o2 = Order.create!(customer:@customer2, delivery:"Ship", gate:"Mandalar Min", remark:"important" , payment:"cash", status: false, department:@dep2)
-@o3 = Order.create!(customer:@customer3, delivery:"Air", gate:"Mandalar Min", remark:"something" , payment:"cash", status: false, department:@dep3)
-@o4 = Order.create!(customer:@customer4, delivery:"Train", gate:"Mandalar Min", remark:"something" , payment:"cash", status: false, department:@dep4)
-@o5 = Order.create!(customer:@customer1, delivery:"Plane", gate:"Mandalar Min", remark:"write something" , payment:"credit", status: false, department:@dep1)
+@o = Order.create!(customer:@customer, delivery:"Car", gate:"Mandalar Min", remark:"" , payment:"cash", status: true, department:@dep)
+@o1 = Order.create!(customer:@customer1, delivery:"Plane", gate:"Mandalar Min", remark:"" , payment:"credit", status: true, department:@dep1)
+@o2 = Order.create!(customer:@customer2, delivery:"Ship", gate:"Mandalar Min", remark:"" , payment:"cash", status: false, department:@dep2)
+@o3 = Order.create!(customer:@customer3, delivery:"Air", gate:"Mandalar Min", remark:"" , payment:"cash", status: false, department:@dep3)
+@o4 = Order.create!(customer:@customer4, delivery:"Train", gate:"Mandalar Min", remark:"" , payment:"cash", status: false, department:@dep4)
+@o5 = Order.create!(customer:@customer1, delivery:"Plane", gate:"Mandalar Min", remark:"" , payment:"credit", status: false, department:@dep1)
 
 Detail.delete_all
 Detail.create!(order:@o,name: "test", qty:1, price: 1)

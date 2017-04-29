@@ -20,3 +20,7 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+# Ignore the log files
+/current/log/nginx.access.log
+/current/log/nginx.error.log

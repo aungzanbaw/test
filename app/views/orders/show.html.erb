@@ -99,7 +99,7 @@
 	<%= link_to 'Back', orders_path %>
 <script type="text/javascript">
   $(document).ready(function () {
-    let datas = JSON.parse('<%= raw(@details.to_json) %>')
+    let datas = <%= raw(@details.to_json) %>
     for (let data of datas) {
       $('.'+data.id).click(function () {
 

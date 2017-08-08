@@ -166,6 +166,7 @@ table > thead > tr {
 
 @media print{
   body {
+     font-size:15px !important;
      -webkit-print-color-adjust:exact;
      printer-colors:exact;
      color-adjust:exact;

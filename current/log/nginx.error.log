@@ -17779,3 +17779,350 @@
 2017/08/08 03:52:36 [info] 30335#0: *98277 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
 2017/08/08 03:54:17 [info] 30335#0: *98286 client 103.215.193.9 closed keepalive connection
 2017/08/08 04:30:59 [info] 30335#0: *98350 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 04:32:27 [info] 30335#0: *98359 client timed out (110: Connection timed out) while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 04:33:47 [info] 30335#0: *98368 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 04:33:48 [info] 30335#0: *98371 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.193.9, server: localhost, request: "GET /orders/1733 HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders/1733", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1733"
+2017/08/08 04:33:48 [info] 30335#0: *98373 client 103.215.193.9 closed keepalive connection
+2017/08/08 04:34:50 [info] 30335#0: *98377 client timed out (110: Connection timed out) while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 04:36:23 [info] 30335#0: *98383 client timed out (110: Connection timed out) while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 04:43:54 [info] 30335#0: *98393 client 103.215.193.9 closed keepalive connection
+2017/08/08 04:45:01 [info] 30335#0: *98399 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 04:45:01 [info] 30335#0: *98400 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 04:45:31 [info] 30335#0: *98404 client 103.215.193.9 closed keepalive connection
+2017/08/08 04:45:31 [info] 30335#0: *98406 client 103.215.193.9 closed keepalive connection
+2017/08/08 04:45:47 [info] 30335#0: *98409 client 103.215.193.9 closed keepalive connection
+2017/08/08 04:47:41 [info] 30335#0: *98419 client timed out (110: Connection timed out) while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 04:57:39 [info] 30335#0: *98446 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 05:03:03 [info] 30335#0: *98474 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 05:03:43 [info] 30335#0: *98479 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 05:04:22 [info] 30335#0: *98486 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 05:07:58 [info] 30335#0: *98495 client timed out (110: Connection timed out) while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 05:10:06 [info] 30335#0: *98503 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 05:11:21 [info] 30335#0: *98514 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 05:36:37 [info] 30335#0: *98519 client timed out (110: Connection timed out) while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 05:36:39 [info] 30335#0: *98520 client timed out (110: Connection timed out) while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 05:57:43 [info] 30335#0: *98527 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 05:57:43 [info] 30335#0: *98528 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 05:57:43 [info] 30335#0: *98530 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:00:52 [info] 30335#0: *98550 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:01:02 [info] 30335#0: *98552 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:05:43 [info] 30335#0: *98580 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:15:18 [info] 30335#0: *98587 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:15:18 [info] 30335#0: *98585 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:15:18 [info] 30335#0: *98588 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:15:18 [info] 30335#0: *98589 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:19:05 [info] 30335#0: *98595 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:19:32 [info] 30335#0: *98596 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:19:32 [info] 30335#0: *98597 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:20:10 [info] 30335#0: *98603 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:20:33 [info] 30335#0: *98609 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:20:33 [info] 30335#0: *98610 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:20:33 [info] 30335#0: *98608 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:28:27 [info] 30335#0: *98615 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:28:27 [info] 30335#0: *98614 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:28:27 [info] 30335#0: *98616 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:42:24 [info] 30335#0: *98633 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:42:24 [info] 30335#0: *98631 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:42:26 [info] 30335#0: *98636 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:42:29 [info] 30335#0: *98638 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:42:29 [info] 30335#0: *98640 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:43:33 [info] 30335#0: *98653 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:44:46 [info] 30335#0: *98660 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:44:47 [info] 30335#0: *98663 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:44:50 [info] 30335#0: *98665 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:44:51 [info] 30335#0: *98667 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:44:51 [info] 30335#0: *98670 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.193.9, server: localhost, request: "GET /orders/1719 HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders/1719", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1719"
+2017/08/08 06:45:39 [info] 30335#0: *98679 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:47:16 [info] 30335#0: *98695 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:47:18 [info] 30335#0: *98696 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:47:22 [info] 30335#0: *98698 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:49:53 [info] 30335#0: *98710 client timed out (110: Connection timed out) while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:50:25 [info] 30335#0: *98711 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:51:45 [info] 30335#0: *98724 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:53:39 [info] 30335#0: *98736 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:53:40 [info] 30335#0: *98738 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:53:44 [info] 30335#0: *98744 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:53:44 [info] 30335#0: *98739 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:59:37 [info] 30335#0: *98752 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:59:37 [info] 30335#0: *98751 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 06:59:37 [info] 30335#0: *98748 client 103.215.193.9 closed keepalive connection
+2017/08/08 06:59:37 [info] 30335#0: *98753 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 07:52:19 [info] 30335#0: *98764 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 07:54:31 [info] 30335#0: *98774 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 08:07:32 [info] 30335#0: *98791 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 08:09:00 [info] 30335#0: *98796 client timed out (110: Connection timed out) while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 08:11:46 [info] 30335#0: *98801 client timed out (110: Connection timed out) while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 08:11:51 [info] 30335#0: *98803 client 103.215.193.9 closed keepalive connection
+2017/08/08 08:15:53 [info] 30335#0: *98815 client closed connection while waiting for request, client: 37.111.2.217, server: 0.0.0.0:80
+2017/08/08 08:16:03 [info] 30335#0: *98816 client closed connection while waiting for request, client: 37.111.2.217, server: 0.0.0.0:80
+2017/08/08 08:16:34 [info] 30335#0: *98827 client closed connection while waiting for request, client: 37.111.2.217, server: 0.0.0.0:80
+2017/08/08 08:20:11 [info] 30335#0: *98830 client 37.111.2.217 closed keepalive connection
+2017/08/08 08:26:40 [info] 30335#0: *98847 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 08:27:41 [info] 30335#0: *98857 client 103.215.193.9 closed keepalive connection
+2017/08/08 08:33:43 [info] 30335#0: *98862 client 186.211.1.8 closed keepalive connection
+2017/08/08 08:50:27 [info] 30335#0: *98871 client timed out (110: Connection timed out) while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 08:51:10 [info] 30335#0: *98874 client closed connection while waiting for request, client: 103.233.205.127, server: 0.0.0.0:80
+2017/08/08 08:51:10 [info] 30335#0: *98877 client closed connection while waiting for request, client: 103.233.205.127, server: 0.0.0.0:80
+2017/08/08 08:51:10 [info] 30335#0: *98876 client closed connection while waiting for request, client: 103.233.205.127, server: 0.0.0.0:80
+2017/08/08 08:52:59 [info] 30335#0: *98887 client closed connection while waiting for request, client: 103.233.205.127, server: 0.0.0.0:80
+2017/08/08 08:52:59 [info] 30335#0: *98891 client closed connection while waiting for request, client: 103.233.205.127, server: 0.0.0.0:80
+2017/08/08 08:52:59 [info] 30335#0: *98889 client closed connection while waiting for request, client: 103.233.205.127, server: 0.0.0.0:80
+2017/08/08 08:52:59 [info] 30335#0: *98890 client closed connection while waiting for request, client: 103.233.205.127, server: 0.0.0.0:80
+2017/08/08 08:53:19 [info] 30335#0: *98892 client 103.233.205.127 closed keepalive connection
+2017/08/08 08:54:22 [info] 30335#0: *98899 client timed out (110: Connection timed out) while waiting for request, client: 103.233.205.127, server: 0.0.0.0:80
+2017/08/08 08:54:22 [info] 30335#0: *98900 client timed out (110: Connection timed out) while waiting for request, client: 103.233.205.127, server: 0.0.0.0:80
+2017/08/08 08:54:37 [info] 30335#0: *98907 client 103.215.193.9 closed keepalive connection
+2017/08/08 08:55:02 [info] 30335#0: *98911 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 08:55:10 [info] 30335#0: *98912 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.233.205.127, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/products"
+2017/08/08 08:55:26 [info] 30335#0: *98925 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.233.205.127, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/customers"
+2017/08/08 08:58:07 [info] 30335#0: *98941 client prematurely closed connection while sending to client, client: 103.233.205.127, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1742"
+2017/08/08 09:02:21 [info] 30335#0: *98949 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 09:02:21 [info] 30335#0: *98950 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 09:03:23 [info] 30335#0: *98961 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 09:03:29 [info] 30335#0: *98965 client 103.233.205.127 closed keepalive connection
+2017/08/08 09:04:43 [info] 30335#0: *98980 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.233.205.127, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/dashboard"
+2017/08/08 09:09:20 [info] 30335#0: *98984 client sent invalid method while reading client request line, client: 164.52.7.132, server: localhost, request: "" ◊:¢~û	nûvv]¬?,z&ÑÙ5D_  à¿0¿,¿(¿$¿¿"
+2017/08/08 09:09:20 [info] 30335#0: *98984 recv() failed (104: Connection reset by peer) while reading client request line, client: 164.52.7.132, server: localhost, request: "" ◊:¢~û	nûvv]¬?,z&ÑÙ5D_  à¿0¿,¿(¿$¿¿"
+2017/08/08 09:09:24 [info] 30335#0: *98985 client sent invalid method while reading client request line, client: 164.52.7.132, server: localhost, request: "ˇ˝"
+2017/08/08 09:09:24 [info] 30335#0: *98985 recv() failed (104: Connection reset by peer) while reading client request line, client: 164.52.7.132, server: localhost, request: "ˇ˝"
+2017/08/08 09:09:27 [info] 30335#0: *98986 recv() failed (104: Connection reset by peer) while waiting for request, client: 164.52.7.132, server: 0.0.0.0:80
+2017/08/08 09:09:30 [info] 30335#0: *98987 client 164.52.7.132 closed keepalive connection (104: Connection reset by peer)
+2017/08/08 09:09:30 [info] 30335#0: *98989 client sent invalid method while reading client request line, client: 164.52.7.132, server: localhost, request: "¿ è˝U©   uÎS< @BBâ¨tó"a8o˝MSÿ‚≠"
+2017/08/08 09:09:30 [info] 30335#0: *98989 recv() failed (104: Connection reset by peer) while reading client request line, client: 164.52.7.132, server: localhost, request: "¿ è˝U©   uÎS< @BBâ¨tó"a8o˝MSÿ‚≠"
+2017/08/08 09:32:34 [info] 30335#0: *98992 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.233.205.127, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1623"
+2017/08/08 09:37:27 [info] 30335#0: *99007 client closed connection while waiting for request, client: 103.233.205.127, server: 0.0.0.0:80
+2017/08/08 09:37:27 [info] 30335#0: *99006 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.233.205.127, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1742"
+2017/08/08 09:37:27 [info] 30335#0: *99009 client closed connection while waiting for request, client: 103.233.205.127, server: 0.0.0.0:80
+2017/08/08 09:43:19 [info] 30335#0: *99021 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.233.205.127, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/dashboard"
+2017/08/08 09:43:45 [info] 30335#0: *99026 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.233.205.127, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/dashboard"
+2017/08/08 09:50:03 [info] 30335#0: *99034 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.233.205.127, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/100"
+2017/08/08 09:59:34 [info] 30335#0: *99045 client closed connection while waiting for request, client: 103.233.205.127, server: 0.0.0.0:80
+2017/08/08 10:11:11 [info] 30335#0: *99056 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 10:11:11 [info] 30335#0: *99057 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 10:11:11 [info] 30335#0: *99058 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 10:11:51 [info] 30335#0: *99063 client 103.215.193.9 closed keepalive connection
+2017/08/08 10:12:07 [info] 30335#0: *99067 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 10:13:06 [info] 30335#0: *99078 client 103.215.193.9 closed keepalive connection
+2017/08/08 10:19:37 [info] 30335#0: *99089 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.233.205.127, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/100"
+2017/08/08 10:22:01 [info] 30335#0: *99100 client 91.196.50.33 closed keepalive connection
+2017/08/08 10:26:16 [error] 30335#0: *99102 connect() to unix:/home/deploy/da/shared/sockets/puma.sock failed (111: Connection refused) while connecting to upstream, client: 103.233.205.127, server: localhost, request: "GET /orders/1003 HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders/1003", host: "103.253.146.26", referrer: "http://103.253.146.26/logout"
+2017/08/08 10:27:00 [error] 30335#0: *99104 connect() to unix:/home/deploy/da/shared/sockets/puma.sock failed (111: Connection refused) while connecting to upstream, client: 103.233.205.127, server: localhost, request: "GET /orders/1003 HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders/1003", host: "103.253.146.26", referrer: "http://103.253.146.26/logout"
+2017/08/08 10:28:23 [error] 30335#0: *99115 connect() to unix:/home/deploy/da/shared/sockets/puma.sock failed (111: Connection refused) while connecting to upstream, client: 103.233.205.127, server: localhost, request: "GET /orders/1742 HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders/1742", host: "103.253.146.26", referrer: "http://103.253.146.26/dashboard"
+2017/08/08 10:28:43 [info] 30335#0: *99118 client closed connection while waiting for request, client: 103.233.205.127, server: 0.0.0.0:80
+2017/08/08 10:30:01 [info] 30335#0: *99124 client closed connection while waiting for request, client: 103.233.205.127, server: 0.0.0.0:80
+2017/08/08 10:38:07 [info] 30335#0: *99125 client 103.242.97.98 closed keepalive connection
+2017/08/08 10:40:44 [info] 30335#0: *99128 client 103.242.97.98 closed keepalive connection
+2017/08/08 10:48:30 [info] 30335#0: *99134 client 103.242.97.98 closed keepalive connection
+2017/08/08 10:51:31 [info] 30335#0: *99136 client 103.242.97.98 closed keepalive connection
+2017/08/08 11:24:02 [info] 30335#0: *99152 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.193.9, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/100"
+2017/08/08 11:24:37 [info] 30335#0: *99157 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 11:24:37 [info] 30335#0: *99158 client closed connection while waiting for request, client: 103.215.193.9, server: 0.0.0.0:80
+2017/08/08 11:24:58 [info] 30335#0: *99160 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.193.9, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1735"
+2017/08/08 11:25:21 [info] 30335#0: *99166 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.193.9, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1001"
+2017/08/08 11:25:34 [info] 30335#0: *99171 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.193.9, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1746"
+2017/08/08 11:27:13 [info] 30335#0: *99180 client 103.215.193.9 closed keepalive connection
+2017/08/08 11:27:16 [info] 30335#0: *99182 client 103.215.193.9 closed keepalive connection
+2017/08/08 15:05:33 [info] 30335#0: *99188 recv() failed (104: Connection reset by peer) while waiting for request, client: 118.193.158.17, server: 0.0.0.0:80
+2017/08/08 15:40:42 [info] 30335#0: *99191 client 37.111.10.18 closed keepalive connection
+2017/08/08 15:58:49 [info] 30335#0: *99195 client sent invalid method while reading client request line, client: 59.111.29.6, server: localhost, request: "       "
+2017/08/08 15:58:49 [info] 30335#0: *99195 recv() failed (104: Connection reset by peer) while reading client request line, client: 59.111.29.6, server: localhost, request: "       "
+2017/08/08 15:58:49 [info] 30335#0: *99196 client sent invalid method while reading client request line, client: 59.111.29.6, server: localhost, request: " "
+2017/08/08 15:58:50 [info] 30335#0: *99196 recv() failed (104: Connection reset by peer) while reading client request line, client: 59.111.29.6, server: localhost, request: " "
+2017/08/08 16:27:32 [info] 30335#0: *99199 client 195.60.64.5 closed keepalive connection
+2017/08/08 19:05:35 [info] 30335#0: *99205 client sent invalid method while reading client request line, client: 119.92.186.196, server: localhost, request: "R   ykC‹ë9R_"
+2017/08/08 20:23:24 [info] 30335#0: *99206 client 115.231.218.32 closed keepalive connection
+2017/08/08 23:28:51 [info] 30335#0: *99212 client 91.196.50.33 closed keepalive connection
+2017/08/09 00:37:54 [info] 30335#0: *99216 client 117.34.105.87 closed keepalive connection (104: Connection reset by peer)
+2017/08/09 03:24:30 [info] 30335#0: *99236 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 03:24:30 [info] 30335#0: *99239 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 03:24:30 [info] 30335#0: *99238 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 03:29:48 [info] 30335#0: *99266 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 03:30:01 [info] 30335#0: *99269 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 03:31:06 [info] 30335#0: *99277 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 03:38:55 [info] 30335#0: *99300 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 03:44:49 [info] 30335#0: *99328 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 03:46:27 [info] 30335#0: *99342 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 03:46:27 [info] 30335#0: *99343 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 03:46:51 [info] 30335#0: *99339 client timed out (110: Connection timed out) while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 03:47:45 [info] 30335#0: *99354 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 03:48:11 [info] 30335#0: *99360 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 03:48:24 [info] 30335#0: *99367 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1007"
+2017/08/09 03:48:50 [info] 30335#0: *99364 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 03:49:09 [info] 30335#0: *99373 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 03:50:31 [info] 30335#0: *99383 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 03:50:52 [info] 30335#0: *99394 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 03:52:50 [info] 30335#0: *99421 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 03:55:19 [info] 30335#0: *99445 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1744"
+2017/08/09 03:55:52 [info] 30335#0: *99458 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1006"
+2017/08/09 04:29:28 [info] 30335#0: *99566 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 04:29:28 [info] 30335#0: *99564 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 04:29:28 [info] 30335#0: *99565 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 05:12:28 [info] 30335#0: *99713 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1773"
+2017/08/09 05:12:32 [info] 30335#0: *99716 client 103.215.194.6 closed keepalive connection
+2017/08/09 05:42:00 [info] 30335#0: *99718 client 222.186.34.14 closed keepalive connection
+2017/08/09 06:12:02 [info] 30335#0: *99720 client sent invalid method while reading client request line, client: 66.240.205.34, server: localhost, request: "Gh0st≠   ‡   xúKS``ò√¿¿¿ƒå@ºQñÅÅ	Hßïe&ß*$&g+2îˆ∞00¨®rc †Ç\`&É«K7ÜÂn9ïn;Ñ3¨Ësch®^œ4'Jó©Ç„0√ëh]&ê¯ŒóSÀA4L?2=·ƒíÜ@ı`TÆØ]"
+2017/08/09 06:32:58 [info] 30335#0: *99726 recv() failed (104: Connection reset by peer) while sending to client, client: 173.51.222.123, server: localhost, request: "GET / HTTP/1.0", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock/"
+2017/08/09 07:00:24 [info] 30335#0: *99733 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:00:24 [info] 30335#0: *99732 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:00:24 [info] 30335#0: *99731 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:01:32 [info] 30335#0: *99739 client timed out (110: Connection timed out) while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:04:35 [info] 30335#0: *99764 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:23:46 [info] 30335#0: *99834 client 103.215.194.6 closed keepalive connection
+2017/08/09 07:23:58 [info] 30335#0: *99836 client 103.215.194.6 closed keepalive connection
+2017/08/09 07:24:48 [info] 30335#0: *99845 client 103.215.194.6 closed keepalive connection
+2017/08/09 07:24:52 [info] 30335#0: *99849 client 103.215.194.6 closed keepalive connection
+2017/08/09 07:25:48 [info] 30335#0: *99855 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:26:55 [info] 30335#0: *99858 client timed out (110: Connection timed out) while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:31:00 [info] 30335#0: *99870 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:31:00 [info] 30335#0: *99872 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:31:00 [info] 30335#0: *99873 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:31:00 [info] 30335#0: *99871 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:31:14 [info] 30335#0: *99875 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:31:14 [info] 30335#0: *99876 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:36:20 [info] 30335#0: *99896 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:39:03 [info] 30335#0: *99908 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:39:03 [info] 30335#0: *99909 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:39:03 [info] 30335#0: *99910 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:39:33 [info] 30335#0: *99912 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:39:33 [info] 30335#0: *99913 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:40:26 [info] 30335#0: *99916 client 103.215.194.6 closed keepalive connection
+2017/08/09 07:42:16 [info] 30335#0: *99941 client 103.215.194.6 closed keepalive connection
+2017/08/09 07:43:18 [info] 30335#0: *99955 client 103.215.194.6 closed keepalive connection
+2017/08/09 07:43:23 [info] 30335#0: *99958 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1758"
+2017/08/09 07:43:29 [info] 30335#0: *99964 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1000"
+2017/08/09 07:43:50 [info] 30335#0: *99974 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1774"
+2017/08/09 07:44:01 [info] 30335#0: *99971 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:44:01 [info] 30335#0: *99972 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:44:01 [info] 30335#0: *99973 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:44:14 [info] 30335#0: *99979 client 103.215.194.6 closed keepalive connection
+2017/08/09 07:44:28 [info] 30335#0: *99983 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:46:30 [info] 30335#0: *99994 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:58:55 [info] 30335#0: *100001 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:58:55 [info] 30335#0: *100002 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:58:56 [info] 30335#0: *100000 client 103.215.194.6 closed keepalive connection
+2017/08/09 07:59:14 [info] 30335#0: *100005 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 07:59:25 [info] 30335#0: *100008 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 08:03:23 [info] 30335#0: *100014 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 08:03:55 [info] 30335#0: *100017 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 08:05:02 [info] 30335#0: *100023 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 08:05:02 [info] 30335#0: *100024 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 08:05:02 [info] 30335#0: *100025 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 08:14:21 [info] 30335#0: *100041 client timed out (110: Connection timed out) while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 08:29:21 [info] 30333#0: *100052 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 08:44:27 [info] 30333#0: *100064 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 08:44:27 [info] 30333#0: *100063 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 08:44:27 [info] 30333#0: *100066 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 08:44:27 [info] 30333#0: *100065 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 08:44:34 [info] 30333#0: *100070 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /dashboard HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/dashboard", host: "103.253.146.26", referrer: "http://103.253.146.26/orders"
+2017/08/09 08:44:39 [info] 30333#0: *100074 client 103.215.194.6 closed keepalive connection
+2017/08/09 08:48:49 [info] 30333#0: *100102 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /dashboard HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/dashboard", host: "103.253.146.26", referrer: "http://103.253.146.26/orders"
+2017/08/09 08:49:29 [info] 30333#0: *100108 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 08:51:34 [info] 30333#0: *100119 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1771"
+2017/08/09 08:51:46 [info] 30333#0: *100121 client 103.215.194.6 closed keepalive connection
+2017/08/09 08:51:49 [info] 30333#0: *100124 client 103.215.194.6 closed keepalive connection
+2017/08/09 08:55:43 [info] 30333#0: *100151 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 08:55:43 [info] 30333#0: *100150 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 08:55:43 [info] 30333#0: *100152 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 08:55:43 [info] 30333#0: *100153 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 08:56:43 [info] 30333#0: *100156 client timed out (110: Connection timed out) while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 08:56:43 [info] 30333#0: *100158 client timed out (110: Connection timed out) while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:09:18 [info] 30334#0: *100174 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:09:18 [info] 30334#0: *100176 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:09:18 [info] 30334#0: *100175 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:11:19 [info] 30334#0: *100184 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:11:19 [info] 30334#0: *100183 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:11:19 [info] 30334#0: *100185 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:11:19 [info] 30334#0: *100186 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:11:25 [info] 30334#0: *100187 client 103.215.194.6 closed keepalive connection
+2017/08/09 09:17:25 [info] 30334#0: *100224 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1766"
+2017/08/09 09:17:50 [info] 30334#0: *100228 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:17:50 [info] 30334#0: *100229 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:29:06 [info] 30334#0: *100270 client 103.215.194.6 closed keepalive connection
+2017/08/09 09:30:26 [info] 30334#0: *100276 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1753"
+2017/08/09 09:30:32 [info] 30334#0: *100279 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders"
+2017/08/09 09:37:47 [info] 30334#0: *100313 client 103.215.194.6 closed keepalive connection
+2017/08/09 09:37:51 [info] 30334#0: *100323 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:38:05 [info] 30334#0: *100328 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:38:11 [info] 30334#0: *100330 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders"
+2017/08/09 09:38:17 [info] 30334#0: *100329 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders"
+2017/08/09 09:38:30 [info] 30334#0: *100340 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:38:32 [info] 30334#0: *100335 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders"
+2017/08/09 09:38:32 [info] 30334#0: *100343 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:39:38 [info] 30334#0: *100346 client timed out (110: Connection timed out) while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:41:38 [info] 30334#0: *100350 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /orders/1763 HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders/1763", host: "103.253.146.26", referrer: "http://103.253.146.26/orders"
+2017/08/09 09:43:11 [info] 30334#0: *100354 client 103.215.194.6 closed keepalive connection
+2017/08/09 09:43:37 [info] 30334#0: *100362 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:43:44 [info] 30334#0: *100356 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:43:44 [info] 30334#0: *100357 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:43:44 [info] 30334#0: *100358 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:43:49 [info] 30334#0: *100367 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:43:49 [info] 30334#0: *100368 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:43:49 [info] 30334#0: *100369 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:44:17 [info] 30334#0: *100373 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:46:17 [info] 30334#0: *100385 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:46:17 [info] 30334#0: *100387 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:46:17 [info] 30334#0: *100386 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:46:17 [info] 30334#0: *100389 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:46:17 [info] 30334#0: *100388 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:49:00 [info] 30334#0: *100400 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:49:00 [info] 30334#0: *100402 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:49:00 [info] 30334#0: *100404 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:49:00 [info] 30334#0: *100403 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:49:00 [info] 30334#0: *100405 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:50:09 [info] 30334#0: *100415 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1742"
+2017/08/09 09:52:23 [info] 30334#0: *100427 client 62.201.228.138 closed keepalive connection
+2017/08/09 09:54:53 [info] 30334#0: *100440 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:56:14 [info] 30334#0: *100445 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:56:14 [info] 30334#0: *100444 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:56:14 [info] 30334#0: *100446 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:57:13 [info] 30334#0: *100452 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 09:57:23 [info] 30334#0: *100455 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 10:00:39 [info] 30334#0: *100481 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 10:11:22 [info] 30334#0: *100570 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 10:19:59 [info] 30334#0: *100614 client 103.215.194.6 closed keepalive connection
+2017/08/09 10:20:56 [info] 30334#0: *100618 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 10:20:56 [info] 30334#0: *100619 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 10:20:56 [info] 30334#0: *100622 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 10:20:56 [info] 30334#0: *100620 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 10:20:56 [info] 30334#0: *100621 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 10:21:26 [info] 30334#0: *100628 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 10:23:30 [info] 30334#0: *100640 client timed out (110: Connection timed out) while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 10:30:16 [info] 30334#0: *100658 client timed out (110: Connection timed out) while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 10:30:16 [info] 30334#0: *100659 client timed out (110: Connection timed out) while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 10:35:28 [info] 30334#0: *100662 client 103.215.194.6 closed keepalive connection
+2017/08/09 10:50:17 [info] 30334#0: *100719 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1770"
+2017/08/09 10:52:46 [info] 30334#0: *100725 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1758"
+2017/08/09 10:54:31 [info] 30334#0: *100733 client 103.242.98.255 closed keepalive connection
+2017/08/09 10:56:23 [info] 30334#0: *100735 client 103.242.98.255 closed keepalive connection
+2017/08/09 10:58:33 [info] 30334#0: *100737 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.215.194.6, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1778"
+2017/08/09 11:00:00 [info] 30334#0: *100753 client 103.242.98.255 closed keepalive connection
+2017/08/09 11:00:06 [info] 30334#0: *100755 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.242.98.255, server: localhost, request: "GET /api/v1/orders/ HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/api/v1/orders/", host: "103.253.146.26"
+2017/08/09 11:05:58 [info] 30334#0: *100775 client 103.242.98.255 closed keepalive connection
+2017/08/09 11:06:01 [info] 30334#0: *100771 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 11:06:01 [info] 30334#0: *100773 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 11:06:01 [info] 30334#0: *100772 client closed connection while waiting for request, client: 103.215.194.6, server: 0.0.0.0:80
+2017/08/09 11:15:49 [info] 30334#0: *100785 client 103.242.98.255 closed keepalive connection
+2017/08/09 11:16:15 [info] 30334#0: *100787 client 103.242.98.255 closed keepalive connection
+2017/08/09 11:18:19 [info] 30334#0: *100791 client 103.242.98.255 closed keepalive connection
+2017/08/09 11:21:21 [info] 30334#0: *100793 client 103.242.98.255 closed keepalive connection
+2017/08/09 11:21:30 [info] 30334#0: *100795 client 103.242.98.255 closed keepalive connection
+2017/08/09 12:02:33 [info] 30334#0: *100803 client 5.153.132.250 closed keepalive connection
+2017/08/09 13:11:49 [info] 30334#0: *100807 client 209.126.136.4 closed keepalive connection
+2017/08/09 15:00:16 [info] 30334#0: *100809 client 91.196.50.33 closed keepalive connection
+2017/08/09 15:58:48 [info] 30334#0: *100811 client sent invalid method while reading client request line, client: 106.2.124.185, server: localhost, request: "       "
+2017/08/09 15:58:49 [info] 30334#0: *100811 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.2.124.185, server: localhost, request: "       "
+2017/08/09 15:58:49 [info] 30334#0: *100812 client sent invalid method while reading client request line, client: 106.2.124.185, server: localhost, request: " "
+2017/08/09 15:58:49 [info] 30334#0: *100812 recv() failed (104: Connection reset by peer) while reading client request line, client: 106.2.124.185, server: localhost, request: " "
+2017/08/09 16:06:43 [info] 30334#0: *100816 client closed connection while waiting for request, client: 103.42.217.36, server: 0.0.0.0:80
+2017/08/09 16:06:43 [info] 30334#0: *100818 client closed connection while waiting for request, client: 103.42.217.36, server: 0.0.0.0:80
+2017/08/09 16:12:51 [error] 30334#0: *100829 connect() to unix:/home/deploy/da/shared/sockets/puma.sock failed (111: Connection refused) while connecting to upstream, client: 103.42.217.36, server: localhost, request: "GET /orders/1742 HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders/1742", host: "103.253.146.26"
+2017/08/09 16:13:10 [info] 30334#0: *100833 client closed connection while waiting for request, client: 103.42.217.36, server: 0.0.0.0:80
+2017/08/09 16:13:10 [info] 30334#0: *100834 client closed connection while waiting for request, client: 103.42.217.36, server: 0.0.0.0:80
+2017/08/09 16:13:10 [info] 30334#0: *100831 client closed connection while waiting for request, client: 103.42.217.36, server: 0.0.0.0:80
+2017/08/09 16:13:10 [info] 30334#0: *100832 client closed connection while waiting for request, client: 103.42.217.36, server: 0.0.0.0:80
+2017/08/09 16:13:10 [info] 30334#0: *100835 client closed connection while waiting for request, client: 103.42.217.36, server: 0.0.0.0:80
+2017/08/09 16:17:55 [info] 30334#0: *100838 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.42.217.36, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/100"
+2017/08/09 16:18:00 [info] 30334#0: *100840 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.42.217.36, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders"
+2017/08/09 16:18:44 [info] 30334#0: *100846 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.42.217.36, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1742"
+2017/08/09 16:18:44 [info] 30334#0: *100848 client closed connection while waiting for request, client: 103.42.217.36, server: 0.0.0.0:80
+2017/08/09 16:18:49 [info] 30334#0: *100850 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 103.42.217.36, server: localhost, request: "GET /orders HTTP/1.1", upstream: "http://unix:/home/deploy/da/shared/sockets/puma.sock:/orders", host: "103.253.146.26", referrer: "http://103.253.146.26/orders/1000"

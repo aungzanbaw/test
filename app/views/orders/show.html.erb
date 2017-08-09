@@ -43,7 +43,7 @@
 		<td colspan="3"><input type="text" name="order[remark]" value="<%= @order.remark %>" class="form-control"></td>
 	<% else %>
 		<td><strong>Remark:</strong></td>
-		<td colspan="3"><%= @order.remark %></td>
+		<td colspan="3"><b><%= @order.remark %></b></td>
 	<% end %>
     </tr>
   </tbody>
@@ -94,7 +94,9 @@
   <% end %>
 <% end %>
 <br>
-<%= link_to 'Print', "#", class: 'btn btn-warning', onclick: 'window.print()' %>
+<% if @order.department == Staff.find(session[:staff]).department %>
+	<%= link_to 'Print', "#", class: 'btn btn-warning', onclick: 'window.print()' %>
+<% end %>
 <hr>
 	<%= link_to 'Back', orders_path %>
 <script type="text/javascript">
